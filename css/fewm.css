@@ -1,0 +1,6282 @@
+.content {
+    max-width: 1630px;
+}
+
+.hlayer {
+    margin-top: 700px;
+    margin-left: 850px;
+}
+
+.blayer {
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+.flag {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.mass {
+    background: #f9f9f9;
+    padding: 0px;
+    margin-left: 16px;
+    margin-bottom: 30px;
+}
+
+.mTop50 {
+    margin-top: 50px;
+}
+
+.mTop70 {
+    margin-top: 70px;
+}
+
+.mBtm33 {
+    margin-bottom: 33px !important;
+}
+
+.mTop-35 {
+    margin-top: -35px !important;
+}
+
+.mTop-60 {
+    margin-top: -60px;
+}
+
+.mBtm90 {
+    margin-bottom: 90px;
+}
+
+.mLeft90 {
+    margin-left: 90px;
+}
+
+.light_header #navy > li > a:hover {
+    text-decoration: none;
+}
+
+.visHidden {
+    visibility: hidden;
+}
+
+.disNone {
+    display: none;
+}
+
+.carousel-caption {
+    text-align: left;
+    top: 26%;
+    position: absolute;
+    left: 60%;
+    color: #fff;
+    width: 100%;
+}
+
+.vecLoc2 img {
+    max-width: none;
+    width: 100%;
+}
+
+.slider2,
+.slider3 {
+    top: 23%;
+}
+
+.carousel-caption h1 {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 50px;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 20px;
+    line-height: 2;
+    text-shadow: none;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+    opacity: 1;
+}
+
+.slider2 h1,
+.slider2 p {
+    color: #363636;
+}
+
+#navy ul li a {
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 16px;
+    text-transform: none;
+    padding: 0 25px;
+}
+
+#navy > li > a > span {
+    padding: 0 25px;
+}
+
+#site_header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+.lang {
+    position: relative;
+    float: right;
+    top: 40px;
+    right: 10px;
+}
+
+.lang a:first-of-type {
+    margin-right: 15px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 13%;
+    top: 42%;
+    bottom: auto;
+    opacity: 0.8;
+}
+
+.carousel-control-next img,
+.carousel-control-prev img {
+    width: 60px;
+}
+
+.con {
+    height: 595px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    /* backface-visibility: hidden; */
+}
+
+.middle {
+    transition: unset;
+    opacity: 0;
+    position: relative;
+    width: 634px;
+    height: 595px;
+    top: -557px;
+}
+
+.con:hover .middle {
+    opacity: 1;
+    background: rgba(247, 147, 30, 0.7);
+}
+
+.middle h1 {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 30px;
+    margin-top: -38px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    top: 47%;
+}
+
+.middle h1 span,
+#navy ul li a em {
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.middle div {
+    position: relative;
+    top: 60%;
+}
+
+.middle a {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 4px solid #fff;
+    letter-spacing: 0;
+    padding: 15px 1px;
+}
+
+.inx {
+    text-align: center;
+    padding: 95px 0;
+}
+
+.inx h1,
+.sub h1 {
+    font-size: 25px;
+    font-family: 'NotoSansCJKkr-Light';
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 45px;
+    letter-spacing: 0;
+}
+
+.inx h2,
+.sub h2 {
+    font-size: 45px;
+    font-family: 'NotoSansCJKkr-Light';
+    text-transform: uppercase;
+    color: #f7931e;
+    margin-top: 8px;
+    margin-bottom: 50px;
+}
+
+.inx h2 span,
+.sub h2 span {
+    font-family: 'NotoSansCJKkr-Medium';
+}
+
+.inx h6 {
+    font-size: 20px;
+    font-family: 'NotoSansCJKkr-Regular';
+    line-height: 2;
+}
+
+.inx p,
+.sub p {
+    font-size: 17px;
+    font-family: 'NotoSansCJKkr-Regular';
+    color: #6e6655;
+    line-height: 2;
+    margin-top: 50px;
+}
+
+.divider {
+    width: 100px;
+    margin: auto;
+    border-top: 3px solid #f7931e;
+}
+
+.orbtn {
+    margin: 100px auto;
+    justify-content: center;
+}
+
+.orbtn a {
+    font-size: 15px;
+    font-family: 'NotoSansCJKkr-Medium';
+    text-transform: uppercase;
+    background: #1a1d24;
+    color: #fff;
+    letter-spacing: 0;
+    padding: 30px 20px;
+}
+
+.orbtn a:hover {
+    background: #f7931e;
+}
+
+footer {
+    background: #2c2b28;
+    padding: 50px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+    font-family: 'NotoSansCJKkr-Medium';
+}
+
+footer p em {
+    margin-left: 25px;
+    font-style: normal;
+}
+
+footer a img {
+    margin-bottom: 45px;
+}
+
+footer p:nth-child(3) {
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+footer p:nth-child(5) {
+    color: #fff;
+    margin-top: 50px;
+}
+
+footer p:nth-child(5) span {
+    font-family: 'NotoSansCJKkr-Light';
+}
+
+footer p:nth-child(2),
+footer p:nth-child(4) {
+    color: #615c4e;
+}
+
+#logo {
+    margin-top: 10px;
+}
+
+#navy > li.current_page_item > a:not(.nav_trigger),
+#navy > li:hover > a:not(.nav_trigger),
+#navy > li.current > a,
+.light_header #navy > li.current > a {
+    color: #f7931e;
+}
+
+.dark_sup_menu #nav_menu:not(.mobile_menu) #navy ul li:not(.tab_menu_item) > a {
+    color: #000;
+}
+
+.dark_sup_menu #nav_menu:not(.mobile_menu) #navy ul li:not(.tab_menu_item):hover > a {
+    color: #f7931e;
+}
+
+.dark_sup_menu #nav_menu:not(.mobile_menu) #navy ul {
+    background: #fff;
+    border: 1px solid #ededed;
+    border-bottom: 2px solid #f7931e;
+}
+
+#navy {
+    left: 23%;
+}
+
+.bannerText {
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.bannerText div {
+    top: 20px;
+    position: relative;
+}
+
+.bannerText p {
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 20px;
+    margin: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.bannerText h1 {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 50px;
+    color: #fff;
+    line-height: 1.3;
+}
+
+.brdcrmb p {
+    font-family: 'NotoSansCJKkr-DemiLight';
+    font-size: 15px;
+    color: #363636;
+    line-height: 1;
+}
+
+.brdcrmb {
+    margin: 100px 154px 70px;
+}
+
+.brdcrmb p img {
+    margin: 0 10px;
+}
+
+.brdcrmb p span:last-of-type {
+    color: #f7931e;
+}
+
+.brdcrmb p span span {
+    font-family: sans-serif;
+    color: #363636 !important;
+}
+
+.imap iframe {
+    width: 100%;
+    height: 600px;
+}
+
+
+/*raji code*/
+
+.inx1 {
+    width: 90vh;
+    padding-top: 30px;
+}
+
+.introBg {
+    background: url(../images/introbg2.jpg);
+    height: calc(100vh - 6px);
+    /*height: 1200px;*/
+    overflow: hidden;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: contain;
+    /*padding: 40px;*/
+}
+
+.introBg .container {
+    width: 100%;
+    height: 100%;
+}
+
+.introBg .flx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*height: 1200px;*/
+    height: calc(100vh - 40px);
+}
+
+.introBg .flx img {
+    -webkit-box-shadow: 10px 10px 18px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 10px 10px 18px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 18px 6px rgba(0, 0, 0, 0.3);
+}
+
+.introBg .introLogo {
+    position: absolute;
+    padding: 40px;
+}
+
+.introBg .ftr {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 0 40px 40px 40px;
+}
+
+.introBg .ftr .ftrLft h1 {
+    display: inline;
+    font-family: 'Lato-Hairline';
+    font-size: 30px;
+    color: #363636;
+    letter-spacing: 0;
+    bottom: 30px;
+    position: absolute;
+}
+
+.introBg .ftr .ftrRgt p {
+    font-family: 'Lato-Hairline';
+    font-size: 18px;
+    color: #363636;
+    display: inline;
+    float: right;
+    line-height: 2;
+}
+
+.introLineBg {
+    background: url(../images/introLine.png);
+    height: 728px;
+    width: 728px;
+}
+
+.ewidth4 p span img,
+.ewidth3 p span img,
+.ewidth2 p span img,
+.ewidth1 p span img {
+    background: url(../images/encoatline.jpg);
+    height: 10px;
+    width: 1px;
+}
+
+.slideWidth {
+    cursor: default;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 405px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.slideWholeWidth {
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    width: 405px;
+    height: 250px;
+    visibility: hidden;
+}
+
+.slideWholeWidth img {
+    width: 405px;
+    height: 250px;
+}
+
+
+/*@media (min-width:
+px) and (max-width: 1599px) {*/
+
+
+/*    .slideWholeWidth{*/
+
+
+/*        position:relative;*/
+
+
+/*        margin:0 auto;*/
+
+
+/*        top:0px;*/
+
+
+/*        left:0px;*/
+
+
+/*        width:110px;*/
+
+
+/*        height:50px;*/
+
+
+/*        visibility: hidden;*/
+
+
+/*        }*/
+
+
+/*.slideWidth{*/
+
+
+/*   cursor:default;*/
+
+
+/*   position:relative;*/
+
+
+/*   top:0px;*/
+
+
+/*   left:0px;*/
+
+
+/*   width:110px;*/
+
+
+/*   height:50px;*/
+
+
+/*   overflow:hidden;*/
+
+
+/*}*/
+
+
+/*}*/
+
+
+/*raji code end*/
+
+.sub h6 {
+    background: #f7931e;
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 17px;
+    color: #fff;
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    margin-top: 70px;
+}
+
+.sub h1 {
+    font-size: 20px;
+}
+
+.sub h2 {
+    font-size: 35px;
+}
+
+.sub p {
+    margin-top: 35px;
+}
+
+.box {
+    width: 565px;
+    height: 775px;
+    border: 1px solid #ededed;
+    box-shadow: 3px 3px #ededed;
+    margin-bottom: 50px;
+    margin: 15px;
+    text-align: center;
+}
+
+.flx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box div {
+    height: 500px;
+    width: 100%;
+}
+
+.box h1 {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.box h1 span {
+    font-family: 'NotoSansCJKkr-Medium';
+}
+
+.box h6 {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 2.4;
+}
+
+.box p,
+.box h6 em {
+    font-family: 'NotoSansCJKkr-Medium';
+    font-size: 20px;
+    width: 155px;
+    padding: 15px;
+    background: #f7931e;
+    border-radius: 60px;
+    margin: auto;
+    color: #fff;
+}
+
+.box h6 em {
+    padding: 15px 35px;
+    font-style: normal;
+    margin-right: 30px;
+}
+
+.sub p span {
+    font-family: 'NotoSansCJKkr-Medium';
+}
+
+.sub img {
+    margin: 10px 0 25px;
+}
+
+.bannerh1 {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'NotoSansCJKkr-Medium';
+}
+
+#container {
+    width: auto;
+    height: 1200px;
+    background: url(../images/intromainBg.png);
+}
+
+#container1 {
+    width: max-content;
+    background: url(../images/mainbg1.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#indexBg {
+    background: url(../images/index1.jpg) no-repeat;
+    background-size: contain;
+    height: 1200px;
+}
+
+#scene li img {
+    object-fit: cover;
+}
+
+.bannerh1 {
+    margin-top: 10px;
+}
+
+.pad160 {
+    padding-left: 160px;
+}
+
+.mTpbt100 {
+    margin: 100px 0px;
+}
+
+.imgW {
+    margin: 0 15px;
+    margin-top: 70px;
+}
+
+.imgPos {
+    position: relative;
+    left: 7.7%;
+}
+
+.clr p:first-of-type {
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 15px;
+    float: right;
+    background: none;
+    color: #6c6c6c;
+    width: auto;
+    padding: 23px 28px;
+}
+
+.clr .bgrey {
+    background: #6c6c6c;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    float: right;
+    position: relative;
+    top: 50px;
+    left: 62px;
+}
+
+.pre .clr:nth-child(2) .bgrey {
+    background: #adb5b4
+}
+
+.cont .sub h1 {
+    font-size: 36px;
+    font-family: 'NotoSansCJKkr-Regular';
+    margin-top: 30px;
+}
+
+.cont .flx div div {
+    display: flex;
+}
+
+.cont p {
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 17px;
+    color: #f7931e;
+    padding: 23px 0;
+    width: 120px;
+    margin: 0;
+}
+
+.cont input::placeholder,
+.cont textarea::placeholder {
+    color: #959595;
+}
+
+.cont input,
+.cont textarea {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 17px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    outline: none;
+    width: 330px;
+    border-radius: 0;
+}
+
+.cont .flx .cnt p {
+    width: 144px;
+}
+
+.cont textarea {
+    width: 100%;
+    resize: none;
+}
+
+.cont .flx span {
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 17px;
+    color: #898989;
+    padding: 25px 0;
+}
+
+.cont .flx span span {
+    color: #f7931e;
+}
+
+.cont .flx div div p,
+.cont .flx div div input,
+.cont .flx div div textarea {
+    border-bottom: 1px solid #898989;
+}
+
+input.c1 {
+    width: 100%;
+    padding-left: 34px;
+}
+
+.cont .flx .fl input,
+.cont .flx .fl p {
+    border-bottom: none;
+}
+
+.isubmit input {
+    border: 3px solid #464646;
+    width: 211px;
+    padding: 13px;
+    border-radius: 100px;
+    border-bottom: 3px solid #464646 !important;
+    color: #363636;
+}
+
+.isubmit input:hover {
+    background: #f7931e;
+    border: 3px solid #f7931e;
+    border-bottom: 3px solid #f7931e !important;
+    color: #fff;
+}
+
+.fl {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fl input {
+    width: 155px;
+}
+
+.vecDetail {
+    margin-bottom: 50px;
+}
+.fnotice .content {
+    padding: 0px;
+}
+.greet .vecGreet .flx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.greet .vecGreet h3 {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.greet .vecGreet h5 {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 16.8px;
+    color: #363636;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: justify;
+    /*padding-left: 20px;*/
+    letter-spacing: 0;
+    line-height: 1.7;
+}
+
+.fewGreet h5 span {
+    font-family: 'NotoSansCJKkr-Regular';
+}
+.hisDet .vecsub > div:last-child {
+    padding-left: 19px;
+    width: 100%;
+}
+
+.his h1 {
+    font-family: 'NotoSansCJKkr-Thin';
+    font-size: 30px;
+    color: #363636;
+    margin-bottom: 15px;
+}
+
+.his p {
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 17px;
+    color: #363636;
+    line-height: 2.3;
+}
+
+.his p span {
+    font-family: 'NotoSansCJKkr-Bold';
+    color: #363636;
+    margin-right: 35px;
+    letter-spacing: 0;
+}
+
+
+/*.hleft div:nth-child(1) {
+
+    margin-top: 93px;
+
+}*/
+
+.hleft div:nth-child(2) {
+    margin-top: 26px;
+}
+
+.hleft div:nth-child(3) {
+    margin-top: 26px;
+}
+
+.hleft div:nth-child(4) {
+    margin-top: 29px;
+}
+
+.hleft div:nth-child(5) {
+    margin-top: 30px;
+}
+
+.hleft div:nth-child(6) {
+    margin-top: 59px;
+}
+
+.hleft div:nth-child(7) {
+    margin-top: 118px;
+}
+
+.hleft div:nth-child(8) {
+    margin-top: 117px;
+}
+
+.hleft div:nth-child(9) {
+    margin-top: 80px;
+}
+
+.hleft div:nth-child(10) {
+    margin-top: 50px;
+}
+
+.hleft div:nth-child(11) {
+    margin-top: 45px;
+}
+
+.hleft div:nth-child(12) {
+    margin-top: 50px;
+}
+
+.hleft div:nth-child(13) {
+    margin-top: 45px;
+}
+
+.hleft div:nth-child(14) {
+    margin-top: 66px;
+}
+
+.hleft div:nth-child(15) {
+    margin-top: 64px;
+}
+
+.hright div:nth-child(1) {
+    margin-top: 18px;
+}
+
+.hright div:nth-child(2) {
+    margin-top: 22px;
+}
+
+.hright div:nth-child(3) {
+    margin-top: 24px;
+}
+
+.hright div:nth-child(4) {
+    margin-top: 25px;
+}
+
+.hright div:nth-child(5) {
+    margin-top: 27px;
+}
+
+.hright div:nth-child(6) {
+    margin-top: 30px;
+}
+
+.hright div:nth-child(7) {
+    margin-top: 57px;
+}
+
+.hright div:nth-child(8) {
+    margin-top: 42px;
+}
+
+.hright div:nth-child(9) {
+    margin-top: 50px;
+}
+
+.hright div:nth-child(10) {
+    margin-top: 40px;
+}
+
+.hright div:nth-child(11) {
+    margin-top: 35px;
+}
+
+.hright div:nth-child(12) {
+    margin-top: 37px;
+}
+
+.hright div:nth-child(13) {
+    margin-top: 34px;
+}
+
+.hright div:nth-child(14) {
+    margin-top: 48px;
+}
+
+.hright div:nth-child(15) {
+    margin-top: 48px;
+}
+
+.hist h2 {
+    margin-top: 40px;
+    color: #363636;
+    font-family: 'NotoSansCJKkr-Medium';
+    margin-bottom: 95px;
+}
+
+.hleft {
+    width: 100px;
+    height: 1404px;
+}
+
+.hright {
+    width: 760px;
+}
+
+.padLtRt31 {
+    padding: 0px 31px;
+}
+
+.hist .flx {
+    align-items: flex-start;
+}
+
+.hright div:nth-child(6) p,
+.hright div:nth-child(7) p,
+.hright div:nth-child(8) p,
+.hright div:nth-child(9) p,
+.hright div:nth-child(11) p,
+.hright div:nth-child(13) p,
+.hright div:nth-child(14) p,
+.hright div:nth-child(15) p {
+    line-height: 1.3;
+}
+
+.hflx {
+    display: flex;
+}
+
+.org .vecsub {
+    padding-bottom: 50px;
+}
+
+.org .vecsub > div:last-child {
+    padding-left: 20px;
+}
+
+.org .vecsection2 {
+    width: 900px;
+}
+
+.vecOrg {
+    padding-left: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.vecLoc1 .vecsub img {
+    max-width: 884px;
+}
+
+#navy ul.smenu {
+    width: 102%;
+}
+
+.carousel {
+    top: 105px;
+}
+
+
+/*slider part*/
+
+.jssorb051 .i {
+    position: absolute;
+    cursor: pointer;
+}
+
+.jssorb051 .i .b {
+    fill: #c8c8c8;
+}
+
+
+/*active*/
+
+.jssorb051 .iav .b {
+    fill: #e60012;
+}
+
+
+/*inactive*/
+
+
+/*slider part*/
+
+
+/*for IE only*/
+
+@media only screen and (min-width:0\0) {
+    .fl input {
+        width: 350px;
+        outline: none !important;
+    }
+}
+
+
+/*raji*/
+
+.padRight25 {
+    padding-right: 25px;
+}
+
+.padLeft20 {
+    padding-left: 20px;
+}
+
+.padTop30 {
+    padding-top: 30px;
+}
+
+.padTop50 {
+    padding-top: 50px;
+}
+
+.vecLocsection2 .subvecLoc .padBot50 {
+    padding-bottom: 50px;
+}
+
+.vecsection2 div:first-of-type .padBot50 {
+    padding-bottom: 50px;
+}
+
+#padBot2 {
+    padding-bottom: 2px;
+}
+
+#mBtm10 {
+    margin-bottom: 10px;
+}
+.vecHistory {
+    max-width: 952px;
+    background: url(../images/line8.png) no-repeat;
+    background-position: center;
+    height: 1031px;
+    margin-left: 18px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.vecHistory .hisLeft {
+    width: 50%;
+    height: 997px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 25px;
+}
+
+.vecHistory .hisRight {
+    width: 50%;
+    height: 997px;
+    float: right;
+    padding-left: 25px;
+}
+
+.hisRight h1,
+.hisLeft h1 {
+    font-family: 'NotoSansCJKkr-Medium';
+    font-size: 35px;
+    color: #363636;
+    margin-bottom: 20px;
+}
+
+.hisRight h5 {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 12.95px;
+    color: #363636;
+    /*padding-left: 20px;*/
+    padding-left: 0px;
+    line-height: 1.6;
+}
+
+.hisLeft h5 {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 12.95px;
+    color: #363636;
+    padding-right: 0px;
+    /*padding-right: 20px;*/
+    line-height: 1.6;
+}
+
+.hisRight .R2017 {
+    padding-top: 155px;
+}
+
+.hisLeft .L2016 {
+    padding-top: 128px;
+}
+
+.hisRight .R2015 {
+    padding-top: 200px;
+}
+
+.hisLeft .L2014 {
+    padding-top: 145px;
+}
+
+.hisRight .R2012 {
+    padding-top: 144px;
+}
+
+.hisRight .R2019 {
+    padding-top: 50px;
+}
+
+.hisLeft .L2018 {
+    padding-top: 275px;
+}
+
+.vecLocsection2 > .subvecLoc {
+    width: 564px;
+}
+
+.vecLocsection2 .subvecLoc h1 {
+    font-family: "NotoSansCJKkr-Medium";
+    font-size: 35px;
+    padding-left: 15px;
+    padding-bottom: 28px;
+    color: #363636;
+    margin: 0px;
+    line-height: 0.9;
+}
+
+.locDet {
+    width: 100%;
+    height: 54px;
+    color: #fff;
+    background: #a40d19;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locDet h1 {
+    font-family: 'NotoSansCJKkr-Medium';
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.locDet p {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 15px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locDet p img {
+    padding-right: 10px;
+}
+
+.vecLoc1 .vecwidth2 {
+    max-width: -moz-fit-content;
+    max-width: -webkit-fit-content;
+    max-width: -ms-fit-content;
+    max-width: fit-content;
+    padding-top: 100px;
+    display: flex;
+}
+
+.vecLoc1 .vecsub > div:last-child {
+    padding-left: 20px;
+    width: 100%;
+}
+
+.vecLoc1 .vecsub p {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 15px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vecLoc2 {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.fdtSection {
+    width: 980px;
+}
+
+.fdtSection .vecsection2 > div:first-of-type {
+    width: 950px;
+}
+
+.fdtSection .iconSec .flx div:nth-child(1) {
+    margin-right: 42px;
+}
+
+.fdtSection .iconSec .flx div:nth-child(2) {
+    margin-right: 24px;
+}
+
+.fdtSection .iconSec .flx div:nth-child(3) {
+    margin-right: 34px;
+}
+
+.fdtSection .iconSec .flx div:nth-child(4) {
+    margin-right: 41px;
+}
+
+.fewFdt2 .vectable .table-striped > tbody > tr td {
+    line-height: 1.5;
+}
+
+.fdtSection .vecsub p {
+    font-family: "NotoSansCJKkr-Light";
+    font-size: 14px;
+    padding-left: 26px;
+    padding-bottom: 41px;
+    color: #363636;
+    margin-bottom: 0px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.fdtSection .vecsub p span {
+    letter-spacing: 0px;
+}
+
+.fdtSection .iconSec {
+    padding-top: 30px;
+    width: 950px;
+}
+
+.fdtSection .iconSec .flx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fdtSection .iconSec .flx div {
+    height: 160px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+}
+
+.fdtSection .iconSec .flx div:last-of-type {
+    margin-right: 43px;
+}
+
+.fdtSection .iconSec .flx p {
+    font-family: "NotoSansCJKkr-Light";
+    font-size: 13px;
+    color: #363636;
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 0;
+}
+
+.fdt980 h5 {
+    font-family: "NotoSansCJKkr-Medium";
+    font-size: 18px;
+    padding-bottom: 19px;
+    color: #363636;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    line-height: 0.9;
+}
+
+.fdt980 h5:before {
+    content: url('../images/vector_line.png');
+    position: relative;
+    top: -5px;
+    left: -19px;
+}
+
+.fdt980 p {
+    font-family: "NotoSansCJKkr-Light";
+    font-size: 14px;
+    padding-bottom: 30px;
+    color: #363636;
+    margin-bottom: 0px;
+    margin-left: 45px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+.fdt980 .fdtTable1 table td:nth-child(1) {
+    width: 240px;
+    text-align: center;
+    border-right: 2px solid #e8e8e8;
+    background: #f6f6f6;
+    padding: 16px 0px;
+}
+
+.fdt980 .fdtTable1 table td:nth-child(2) {
+    text-align: left;
+}
+
+.fdt980 .fdtTable1 table td,
+.fdt980 .fdtTable2 table td {
+    font-family: "NotoSansCJKkr-Light";
+    font-size: 12px;
+}
+
+.fdt980 .fdtTable2 table td:nth-child(1) {
+    width: 240px;
+    text-align: center;
+    border-right: 1px solid #e8e8e8;
+    background: #f6f6f6;
+}
+
+.fdt980 .rtxt {
+    width: 900px;
+}
+.fdt980 .fdtTable2 th,
+td {
+    text-align: center;
+}
+
+.fdt980 .fdtTable2 td:nth-child(1),
+td:nth-child(2),
+td:nth-child(3) {
+    border-right: 1px solid #e8e8e8;
+}
+
+.fdt980 .fdtTable2 td:nth-child(2),
+td:nth-child(3) {
+    width: 225px;
+}
+
+.fdt980 .fdtTable2 td:nth-child(4) {
+    width: 215px;
+}
+
+
+/*newly added*/
+
+.fdt980 .fdtTable1 table tbody tr:first-child,
+.fdt980 .fdtTable2 table tbody tr:first-child,
+.novec2table table tbody tr:first-child,
+.avs .vecwidth2 table tbody tr:first-child {
+    border-top: 3px solid #e8e8e8;
+}
+
+.fdt980 .fdtTable1 table tbody tr:last-child,
+.fdt980 .fdtTable2 table tbody tr:last-child,
+.novec2table table tbody tr:last-child,
+.avs .vecwidth2 table tbody tr:last-child {
+    border-bottom: 3px solid #e8e8e8;
+}
+
+.fdt980 .fdtTable1 table tbody td:nth-child(2) {
+    border-right: 0px solid transparent;
+    padding: 18px 0px 16px 67px;
+}
+
+.fdt980 .fdtTable2 table td,
+.novec2table table tbody td {
+    padding: 16px 0px 15px;
+    line-height: 1.6;
+}
+
+
+/*newly added*/
+
+.fdt980 .rtxt p {
+    float: right;
+    font-family: "NotoSansCJKkr-Light";
+    font-size: 12px;
+    text-align: right;
+}
+
+.gasketVectable .gasketBtn a {
+    background-color: #e8e8e8;
+    color: #363636;
+    font-family: "NotoSansCJKkr-Light";
+    padding: 7px 8px 7px 9px;
+    font-size: 13px;
+}
+
+.gasketVectable div {
+    /*margin-bottom: 57px;*/
+    margin-bottom: 33px;
+    text-align: right;
+}
+
+.gasketBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gasketImg .flx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gasketImg .Lflx {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.gasketImg .flx div,
+.gasketImg .Lflx div {
+    margin-right: 49px;
+    width: 268px;
+}
+
+.gasketImg .flx div p,
+.gasketImg .Lflx div p {
+    font-family: "NotoSansCJKkr-Regular";
+    font-size: 13px;
+    text-align: center;
+    padding: 15px 0;
+    line-height: 1.3;
+}
+
+.gasketImg .flx div:last-of-type,
+.gasketImg .Lflx div:last-of-type {
+    margin-right: 0px;
+}
+
+.gasketVectable div.Lflx,
+.gasketImg .Lflx div {
+    margin-bottom: 0px;
+}
+
+.gasketImg .Lflx div p {
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+}
+
+.gasketVectable .gasketBtn a img {
+    padding-left: 5px;
+}
+
+.gasketSec .vecsub p {
+    font-family: "NotoSansCJKkr-Light";
+    font-size: 14px;
+    padding-left: 26px;
+    padding-bottom: 0;
+    color: #363636;
+    margin-bottom: 0px;
+    line-height: 1.4;
+}
+
+.encoat .vecsub {
+    display: flex;
+    padding-bottom: 20px;
+    width: 980px;
+}
+
+.encoat .vecsub > div:last-child {
+    padding-left: 45px;
+    width: auto;
+}
+
+.encoatTable h5 {
+    font-family: "NotoSansCJKkr-Medium";
+    font-size: 18px;
+    padding-bottom: 30px;
+    color: #363636;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    line-height: 0.9;
+}
+
+.encoatTable h5:before {
+    content: url('../images/vector_line.png');
+    position: relative;
+    top: -5px;
+    left: -19px;
+}
+
+
+.encoatTable thead {
+    display: none;
+}
+
+.encoatTable td {
+    text-align: left;
+    padding: 20px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.encoatTable td:first-of-type {
+    width: 300px;
+    background: #dddddd;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.encoatTable td {
+    padding: 10px 40px;
+}
+
+.encoatTableflx {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bStrat .table {
+    margin-left: 26px;
+}
+
+.bStrat .table td {
+    text-align: left;
+    padding: 0;
+    line-height: 23px;
+}
+
+.bStrat .table td,
+.bStrat .table tr {
+    border: none;
+    font-size: 13px;
+}
+
+.selGuide {
+    padding-top: 25px;
+}
+
+.selGuide .vecsub > div:last-child {
+    padding-left: 20px;
+    width: 100%;
+}
+
+.selGuideImg {
+    padding: 28px 0 0px 59px;
+}
+
+
+/*raji*/
+
+
+/*divya css*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+.fewBead .sideBan {
+    background: url(../images/vector_4.png);
+}
+
+.fewGasket .sideBan {
+    background: url(../images/vector_3.png);
+}
+
+.fewGasses .sideBan,.fewGasses1 .sideBan,.fewGasses2 .sideBan,.fewGasses3 .sideBan,.fewGasses4 .sideBan {
+    background :url(../images/vector_1.png);
+}
+.fewHis .sideBan {
+    background: url(../images/his.png);
+}
+
+.fewLoc .sideBan {
+    background: url(../images/loc.png);
+}
+.fewChe1 .sideBan, .fewChe2 .sideBan, .fewChe3 .sideBan {
+    background: url(../images/vector_2.png);
+}
+
+.org .vecsection1 {
+    background: url(../images/org.png);
+}
+.fewChe1 .sideBan p, .fewChe2 .sideBan p, .fewChe3 .sideBan p {
+    padding-top: 110px;
+}
+.fewGasket .sideBan p {
+    padding-top: 106px;
+}
+
+.chemical .vecsection1 p,
+.gasket .vecsection1 p,
+.bead .vecsection1 p,
+.fdt .vecsection1 p {
+    font-family: "NotoSansCJKkr-Light";
+}
+
+.vecsection1 p {
+    color: #fff;
+    font-family: "NotoSansCJKkr-Regular";
+    font-size: 14px;
+    padding-top: 125px;
+    line-height: 1.3;
+    margin: 0px;
+}
+
+.fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p {
+    color: #fff;
+    font-family: "NotoSansCJKkr-Regular";
+    font-size: 14px;
+    padding-top: 145px;
+    line-height: 1.3;
+    margin: 0px;
+}
+.vecwidth1 ul li a {
+    color: #7d7d7d;
+}
+.vecsection2 > div:first-of-type {
+    width: 900px;
+}
+
+.vecsection2 > div:first-of-type {
+    text-align: left;
+}
+
+.fewGasket .title div:first-of-type h1 {
+    font-family: "NotoSansCJKkr-Medium";
+    font-size: 35px;
+    padding-left: 15px;
+    padding-bottom: 28px;
+    color: #363636;
+    margin: 0px;
+    line-height: 0.9;
+}
+.fewGasket .vecsub div {
+    padding-left: 17px;
+}
+
+.vecsection2 div:first-of-type h1 sup {
+    font-size: 17px;
+    top: -1.0em;
+    right: -1px;
+}
+
+.vecsection2 > div:first-of-type {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coat .vecsub > div:last-child {
+    /* width: 100%; */
+    padding: 30px 0px 42px 64px;
+}
+
+.fewGasket .vecsub > div:last-child {
+    padding-bottom: 30px;
+}
+
+
+.vecsub > div:last-child > div:nth-child(2) p {
+    padding-bottom: 0px;
+}
+.vecsub .encoatImg img {
+    max-width: none;
+}
+
+.vecsub > div:last-child > div:nth-child(3) {
+    text-align: right;
+    padding-top: 32px;
+}
+
+.bead2 .vecsub > div:last-child > div:nth-child(3) {
+    text-align: left;
+    padding-top: 32px;
+}
+
+.vecsub h6:before {
+    content: url('../images/dot.png');
+    position: relative;
+    top: -2px;
+    left: -6px;
+}
+.vecsafety {
+    /*width: 346px;*/
+    position: relative;
+    margin-top: 25px;
+}
+
+.vecsafety div {
+    text-align: right;
+}
+
+.vecsafety a {
+    color: #fff;
+    font-family: "NotoSansCJKkr-Light";
+    padding: 7px 0px 7px 7px;
+    font-size: 13px;
+}
+
+.vecsafety > div > a {
+    background: #777777;
+}
+
+.vecsafety a img {
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 7px;
+    padding-top: 5px;
+}
+
+.dropdown-toggle.toggled-on,
+.dropdown-toggle {
+    display: none;
+}
+
+.vsub-menu,
+.vsub-menu1 {
+    position: absolute;
+    top: 23px;
+    z-index: 9;
+    left: 0px;
+    padding: 0px;
+    width: 95px;
+    color: #000;
+    text-align: center;
+}
+
+.vsub-menu1 {
+    top: 36px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.vsub-menu li {
+    color: #000;
+    background: #c30d23;
+}
+
+.vsub-menu1 li {
+    background-color: #eeeeee;
+}
+
+.vsub-menu li:first-child {
+    padding: 12px 0px 6px;
+}
+
+.vsub-menu li:last-child {
+    padding: 13px 0px 12px;
+}
+
+.vsub-menu li a,
+.vsub-menu1 li a {
+    color: #fff;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.vecwidth1 ul.vsub-menu1 li a {
+    color: #7d7d7d;
+}
+
+.vsub-menu li a:hover {
+    font-family: "NotoSansCJKkr-Medium";
+}
+
+.vsub:after {
+    bottom: 100%;
+    left: 65%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.vsub:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #c30d23;
+    /*border-width: 10px;*/
+    border-width: 0px 4px 7px 4px;
+    margin-left: -15px;
+}
+
+.vsub {
+    position: relative;
+    z-index: 9;
+    margin-top: 9px !important;
+}
+
+.vectable thead tr th {
+    text-align: center;
+}
+
+.vectable thead tr th:first-child {
+    min-width: 168px;
+}
+
+.vectable thead tr th:nth-child(2) {
+    min-width: 92px;
+}
+
+.vectable thead tr th:nth-child(3) {
+    min-width: 128px;
+}
+
+.vectable thead tr th:nth-child(4) {
+    min-width: 111px;
+}
+
+.vectable thead tr th:nth-child(5) {
+    min-width: 141px;
+}
+
+.vectable thead tr th:nth-child(6) {
+    min-width: 90px;
+}
+
+.vectable thead tr th:last-child {
+    min-width: 164px;
+}
+
+.vectable thead tr {
+    background-color: #ddd;
+}
+
+.vectable .table thead th {
+    border-bottom: transparent;
+}
+
+.vectable table {
+    border-bottom: 3px solid #e8e8e8;
+    margin-bottom: 27px;
+}
+
+.vectable table tbody tr td,
+.vectable table thead tr th {
+    border-right: 1px solid #e8e8e8;
+    border-top: transparent;
+    font-family: "NotoSansCJKkr-Light";
+    color: #363636;
+}
+
+.vectable table thead tr th {
+    font-size: 14px;
+    padding: 20px 0px 18px;
+}
+
+.vectable table tbody tr td {
+    font-size: 12px;
+    text-align: center;
+}
+
+.vectable tr td:last-child,
+.vectable tr th:last-child {
+    border-right: 1px solid transparent;
+}
+
+.vectable .table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #f6f6f6;
+}
+
+.vectable .table-striped > tbody > tr:nth-of-type(even) td {
+    padding: 20px 0px 16px;
+}
+
+.vectable .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+.vectable .table-striped > tbody > tr:nth-of-type(odd) td {
+    padding: 21px 0px 16px;
+}
+
+.vectable a {
+    /*background-color: #e8e8e8;*/
+    color: #363636;
+    font-family: "NotoSansCJKkr-Light";
+    padding: 7px 8px 7px 9px;
+    font-size: 13px;
+}
+.gases1 .vecsub p,
+.gases4 .vecsub p {
+    padding-bottom: 19px;
+}
+
+.gases1 .vectable thead tr th:first-child {
+    min-width: 161px;
+}
+
+.fewGasses1 .vectable thead tr th:nth-child(2) {
+    min-width: 183px;
+}
+
+.gases1 .vectable thead tr th:nth-child(3) {
+    min-width: 116px;
+}
+
+.gases1 .vectable thead tr th:nth-child(4) {
+    min-width: 91px;
+}
+
+.gases1 .vectable thead tr th:nth-child(5) {
+    min-width: 157px;
+}
+
+.gases1 .vectable thead tr th:last-child {
+    min-width: 187px;
+}
+
+.fewGasses2 .vectable thead tr th:first-child {
+    min-width: 519px;
+}
+
+.gases2 .vectable thead tr th:nth-child(2) {
+    min-width: 209px;
+}
+
+.gases2 .vectable thead tr th:last-child {
+    min-width: 170px;
+}
+
+.fewGasses2 .vectable tbody tr td:first-child {
+    min-width: 261px;
+}
+
+.fewGasses2 .vectable tbody tr td:nth-child(2) {
+    min-width: 257px;
+}
+
+.gases3 .vectable tbody tr:first-of-type td:first-child,
+.gases4 .vectable tbody tr:first-of-type td:first-child {
+    min-width: 324px;
+}
+
+.gases3 .vectable tbody tr:first-of-type td:nth-child(2),
+.gases4 .vectable tbody tr:first-of-type td:nth-child(2) {
+    min-width: 182px;
+}
+
+.gases3 .vectable tbody tr:first-of-type td:nth-child(3),
+.gases4 .vectable tbody tr:first-of-type td:nth-child(3) {
+    min-width: 201px;
+}
+
+.gases3 .vectable tbody tr:first-of-type td:last-child,
+.gases4 .vectable tbody tr:first-of-type td:last-child {
+    min-width: 190px;
+    background-color: #fff;
+}
+
+.gases3 .vectable tbody tr td:first-child,
+.gases4 .vectable tbody tr td:first-child {
+    min-width: 218px;
+}
+
+.gases3 .vectable tbody tr td:nth-child(2),
+.gases4 .vectable tbody tr td:nth-child(2) {
+    min-width: 105px;
+}
+
+.gases4 .vecwidth2 {
+    width: 955px;
+    max-width: 955px;
+}
+
+.gases4 .vectable {
+    width: 900px;
+}
+
+.gases3 .vectable .table-striped > tbody > tr:nth-of-type(odd),
+.gases4 .vectable .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f6f6f6;
+}
+
+.gases3 .vectable .table-striped > tbody > tr:nth-of-type(even),
+.gases4 .vectable .table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #fff;
+}
+
+.gases3 .vectable .table-striped > tbody > tr:first-of-type,
+.gases4 .vectable .table-striped > tbody > tr:first-of-type {
+    background-color: #ddd;
+}
+
+.gases3 .vectable .table-striped > tbody > tr:first-of-type td,
+.gases4 .vectable .table-striped > tbody > tr:first-of-type td {
+    font-size: 14px;
+    padding: 20px 0px 18px;
+}
+
+.bStrat .table td:first-child {
+    width: 111px;
+}
+
+.gases3 .vectable .table-striped > tbody > tr:first-of-type td:last-of-type,
+.gases4 .vectable .table-striped > tbody > tr:first-of-type td:last-of-type {
+    vertical-align: middle;
+    padding: 0px;
+    font-family: "NotoSansCJKkr-Regular";
+    background: #ddd;
+}
+
+.gases3 .vectable .table-striped > tbody > tr:nth-of-type(odd) td,
+.gases4 .vectable .table-striped > tbody > tr:nth-of-type(odd) td {
+    padding: 20px 0px 18px;
+}
+
+.gases3 .vectable .table-striped > tbody > tr:nth-of-type(even) td,
+.gases4 .vectable .table-striped > tbody > tr:nth-of-type(even) td {
+    padding: 22px 0px 17px;
+}
+
+.active li {
+    background-color: #fff;
+}
+
+.pigmentsub > div:first-child {
+    width: 87%;
+    padding: 30px 20px 20px 35px;
+}
+
+.pigmentsub > div:last-child {
+    text-align: right;
+    padding-left: 0px;
+    width: auto;
+}
+.pigmentsub2 h5 {
+    padding-left: 19px;
+    padding-bottom: 17px;
+}
+.pigmentsub2 .vectable table tr th {
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 14px;
+    color: #363636;
+}
+
+.pigmentsub2 .vectable table tr td {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 12px;
+    color: #363636;
+}
+
+.pigmentsub2 .vectable table tr th:first-child {
+    width: 261px;
+    border-right: transparent;
+}
+
+.pigmentsub2 .vectable table tr th:nth-child(2) {
+    width: 178px;
+    border-right: transparent;
+}
+
+.pigmentsub2 .vectable table tr th:last-child {
+    width: 459px;
+}
+.pigmentsub2 .mBtm100 {
+    margin-bottom: 100px;
+}
+
+.pigmentsub2 .mBtm50 {
+    margin-bottom: 50px;
+}
+
+.coated .pigmentsub > div:first-child {
+    padding: 28px 54px 36px 20px;
+}
+
+.coated .vecsub p {
+    padding-bottom: 0px;
+}
+
+.coated .vecsub {
+    padding-bottom: 93px;
+}
+
+.coated .vecsub.pigmentsub {
+    padding-bottom: 54px;
+}
+
+.fdt950 {
+    width: 950px;
+    padding-left: 26px;
+    padding-bottom: 20px;
+    padding-top: 45px;
+}
+
+.fdt950 .vecsub h5:before {
+    left: -26px;
+}
+.fdt950 .vecsub {
+    padding-bottom: 0px;
+}
+.novec2sub {
+    padding-bottom: 50px;
+}
+.novec2sub1 {
+    padding-bottom: 48px;
+}
+
+.novec2sub1 .vectable tr th {
+    width: 450px;
+}
+.fdt .novec2sub1 ul li,
+.novec2sub1 p,
+.novec2sub2 p {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 12px;
+    color: #000;
+    line-height: 1.5;
+}
+.fdt .novec2sub1 ul {
+    padding-left: 26px;
+}
+
+.fdt .vectable table {
+    margin-bottom: 9px;
+}
+.novec2sub2 p {
+    padding-top: 9px;
+    margin-bottom: 0px;
+}
+
+.novec2sub2 {
+    padding-bottom: 22px;
+}
+
+.novec2sub2 h6 {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 14px;
+    color: #363636;
+    line-height: 2;
+}
+
+.novecimg {
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.novecimg div img {
+    padding-right: 33px;
+}
+
+.novecimg div:last-child img {
+    padding-right: 0px;
+}
+.novec2sub2 .vectable table tbody tr td:nth-child(1) {
+    width: 334px;
+    text-align: left;
+    padding-left: 41px;
+}
+
+.novec2sub2 .vectable table tbody tr td:nth-child(2) {
+    width: 244px;
+}
+
+.novec2sub2 .vectable table tbody tr td:nth-child(3) {
+    width: 323px;
+}
+
+.novec2table table {
+    margin-bottom: 7px;
+}
+
+.novec2sub2 .vecsub h5 {
+    padding-bottom: 10px;
+}
+
+.novec2table table td {
+    border-right: 1px solid #e8e8e8;
+}
+
+.novec2table table td:nth-child(1) {
+    border-right: 1px solid #e8e8e8;
+    background: #dddddd;
+    width: 301px;
+    text-align: left;
+    padding-left: 41px;
+    font-size: 14px;
+}
+
+.novec2table table td:nth-child(2) {
+    width: 134px;
+}
+
+.novec2table table td:nth-child(3) {
+    width: 116px;
+}
+
+.novec2table table td:nth-child(4) {
+    width: 120px;
+}
+
+.novec2table table td:nth-child(5) {
+    width: 118px;
+}
+
+.novec2table table td:nth-child(6) {
+    width: 112px;
+    border-right: transparent;
+}
+
+.selGuide {
+    padding: 33px 0px;
+}
+
+.selGuideImg {
+    padding-top: 27px;
+}
+
+.beadrf .vecsection2 div:nth-child(2).vecsub {
+    padding-bottom: 28px;
+}
+
+.beadrf .vecsection2 div:nth-child(3).vecsub > div:last-child {
+    padding-top: 15px;
+}
+
+.beadrf .fdt980 .fdtTable2 td:nth-child(1),
+td:nth-child(2),
+td:nth-child(3) {
+    border-right: transparent;
+}
+
+.beadrf table > tbody > tr > td {
+    border-top: transparent;
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.beadrf table > tbody > tr > td:first-child {
+    padding-left: 27px;
+    width: 154px;
+}
+
+.beadrf table > tbody > tr > td:nth-child(2) {
+    padding-left: 0px;
+}
+
+.beadrf .selGuide {
+    padding: 4px 0px 33px;
+}
+
+.encoat1 .pigmentsub > div:first-child {
+    width: 100%;
+    padding-left: 19px;
+}
+
+.encoat1 .vecsub p {
+    padding-bottom: 0px;
+    letter-spacing: 0;
+    padding-left: 32px;
+}
+
+.encoat1 .vecsub {
+    padding-bottom: 100px;
+    padding-left: 18px;
+}
+
+.encoat1 .vecsub:last-child {
+    padding-bottom: 0px;
+}
+
+.encoat .pigmentsub > div:first-child {
+    width: auto;
+    padding-left: 19px;
+}
+
+.encoat .vecsub p {
+    padding-bottom: 0px;
+    letter-spacing: 0;
+}
+
+.encoat .vecsub {
+    padding-bottom: 100px;
+}
+
+.encoat1 .cheSection .vecwidth2 {
+    width: 955px;
+}
+
+.encoat1 .cheSection .pigmentsub > div:last-child img {
+    padding-right: 7px;
+}
+.encoat1 .vecsub p span:nth-child(2) {
+    padding: 0px 14px;
+    position: relative;
+    bottom: -6px;
+}
+.ewidth2 label,
+.ewidth4 label {
+    width: 174px;
+}
+
+.ewidth3 label {
+    width: 190px;
+}
+
+.pigment .vecsub p {
+    letter-spacing: 0;
+}
+
+.pigment .vecsection2 div:nth-child(5) {
+    padding-bottom: 0px;
+}
+
+.avs .vecsub {
+    padding-bottom: 0px;
+}
+.avs .encoatTable h5 {
+    padding-bottom: 35px;
+}
+
+.hisDet .vecwidth2 {
+    max-width: 955px;
+}
+
+.fdtSection .fdt950 {
+    width: 900px;
+}
+
+.fdtSection .vecsub img {
+    padding-left: 19px;
+    padding-right: 29px;
+    max-width: none;
+}
+
+.fdtSection .fdt980 .fdtTable2 table {
+    margin-bottom: 0px;
+}
+
+.fdtSection .fdt980 .rtxt p {
+    padding-bottom: 50px;
+}
+
+.fdtnov2 .fdtSection .vecsub img {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.fdtnov2 .fdtSection .vecsub p {
+    padding-bottom: 23px;
+}
+
+.fdtnov2 .novec2sub2 .vecsub h5 {
+    padding-bottom: 17px;
+}
+
+.novec2table table td {
+    font-size: 12px;
+}
+
+.fdtSection .fdt980 img {
+    padding-right: 22px;
+}
+
+.novec2sub > div:nth-child(2) {
+    display: flex;
+}
+
+.coated .pigmentsub2 .vectable > div {
+    padding-top: 0px;
+}
+
+.fnotice .vecsub > div:last-child,
+.quote .vecsub > div:last-child,
+.catalogue .vecsub > div:last-child,
+.prRoom .vecsub > div:last-child,
+.msds .vecsub > div:last-child {
+    padding-left: 19px;
+}
+
+.fnotice .vecGreet,
+.catalogue .vecGreet,
+.prRoom .vecGreet,
+.msds .vecGreet {
+    margin-bottom: 46px !important;
+}
+.fewCatDet iframe,
+.fewPrDet iframe, .fewMsdsDet iframe {
+    width: 600px;
+    height: 350px;
+}
+
+.fewNot .sideBan, .fewNotDet .sideBan, .fewNotEdit .sideBan, .fewNotMas .sideBan, .fewLog .sideBan, .fewPriv .sideBan, .fewLeg .sideBan {
+    background: url(../images/notice.png);
+}
+
+.fewNot a,
+.fewNot a:hover, .fewRec1 a, .fewRec1 a:hover {
+    color: #363636;
+}
+
+.fewInq .sideBan, .fewRec2 .sideBan, .fewRec1 .sideBan, .fewRec1Mas .sideBan, .fewRec1Det .sideBan, .fewRec1E .sideBan {
+    background: url(../images/recruitIcon.png);
+}
+
+.fewMsds .sideBan, .fewCat .sideBan, .fewCatDet .sideBan, .fewMsdsDet .sideBan, .catsideBg, .msdssideBg {
+    background: url(../images/catalogue.png);
+}
+
+.fewPr .sideBan, .fewPrDet .sideBan, .prsideBg {
+    background: url(../images/prRoom.png);
+}
+
+.flag {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.flag img:first-child {
+    padding-right: 5px;
+}
+
+.fewAvs .sideBan p {
+    padding-top: 109px;
+}
+
+.avs .vecsub p:first-of-type {
+    margin-bottom: 30px;
+}
+
+
+/*divya end*/
+
+.mLeft50 {
+    margin-left: 50%;
+}
+
+#bead2,
+#bead3 {
+    display: none;
+}
+
+#bead .vecwidth2 .vecsection2,
+#bead2 .vecwidth2 .vecsection2 {
+    margin-left: 43.3%;
+}
+
+.locimg img {
+    width: 933px;
+    height: 407px;
+    margin-bottom: 8.6%;
+}
+
+
+/*divya form*/
+
+.bSize {
+    padding: 0px;
+}
+
+.bor1 {
+    border-top: 2px solid #3d3939;
+}
+
+.bSize .bor1 .flx {
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.bSize .bor1 .flx div {
+    width: 200px;
+    background-color: #f4f4f4;
+    height: 60px;
+}
+
+.bSize .bor1 .flx div p {
+    font-size: 16px;
+    color: #363636;
+    font-family: 'NotoSansCJKkr-Light';
+    padding: 18px 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.bSize .bor1 .flx div:last-child {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 17px 30px;
+}
+
+.bSize .bor1 .flx.attach div:last-child {
+    padding: 19px 30px 17px;
+}
+
+.fewInq input[type="text"], .fewRec2 input[type="text"] {
+    height: 25px;
+    width: 330px;
+}
+
+.bSize .name [type=text] {
+    width: 136px;
+}
+
+.bSize .contact [type=text] {
+    width: 70px;
+}
+
+.bSize .contact span {
+    padding: 0px 10px;
+}
+
+.bSize .addr [type=text] {
+    width: 260px;
+}
+
+.bSize .contnt div {
+    padding: 110px 0;
+    height: 290px !important;
+}
+
+.bSize .send {
+    text-align: center;
+    padding: 60px 0px 100px 0px;
+}
+
+.fewInq .send [type=submit], .fewRec2 .send [type=submit] {
+    padding: 30px 90px;
+    background-color: #f4f4f4;
+    color: #a29b9b;
+    font-size: 16px;
+    font-family: 'NotoSansCJKkr-Bold';
+    border: none;
+    cursor: pointer;
+}
+
+.fewInq .send [type=submit]:hover, .fewRec2 .send [type=submit]:hover {
+    padding: 30px 90px;
+    background-color: #777777;
+    border: 2px solid #777777;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'NotoSansCJKkr-Bold';
+    border: none;
+    cursor: pointer;
+}
+
+.fewInq .vecGreet h1 {
+    font-family: 'NotoSansCJKkr-Medium';
+    font-size: 30px;
+    color: #363636;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left: 18px;
+}
+
+.loginBox {
+    border: 2px solid #e7e7e7;
+    border-top: 5px solid #e7e7e7;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.loginBox input {
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid #e7e7e7;
+    margin-top: 20px;
+    width: 100%;
+    outline: none;
+    padding: 14px;
+}
+
+.loginBox h1 {
+    font-family: 'NotoSansCJKkr-Thin';
+    font-size: 35px;
+    color: #363636;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.loginBox .glyphicon {
+    width: 31px;
+    margin-bottom: 14px;
+    margin-left: 10px;
+}
+
+.id-lock {
+    background: url(../images/log1.png) no-repeat;
+    height: 25px;
+}
+
+.id-pwd {
+    background: url(../images/log2.png) no-repeat;
+    height: 32px;
+}
+
+.input-group-addon {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #e7e7e7;
+    border-radius: 0;
+    border-right: 0;
+    height: fit-content;
+    margin-top: auto;
+    padding: 0;
+    outline: none;
+}
+
+.ig input {
+    margin-top: 45px;
+}
+
+.loginBox input[type=submit] {
+    background: #e7e7e7;
+    font-family: 'NotoSansCJKkr-Thin';
+    font-size: 24px;
+    color: #363636;
+    border-radius: 0;
+    width: 100%;
+    margin-top: 50px;
+    height: 58px;
+    border: none;
+}
+
+.flogin .vecGreet {
+    padding-top: 40px;
+    margin-left: 35px;
+}
+
+.bWrite {
+    border: 1px solid #e7e7e7;
+    padding: 30px;
+}
+
+.boardWrite div:last-child {
+    margin-bottom: 30px;
+}
+
+.boardBtn div:last-of-type {
+    text-align: right;
+}
+.boardWrite div {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.boardBtn .bFor {
+    padding: 11.5px 33px;
+}
+
+.boardBtn .bSix {
+    padding: 11.5px 22px;
+}
+
+
+/*.boardBtn a {*/
+
+
+/*    margin-left: 15px;*/
+
+
+/*}*/
+
+.linkSty {
+    padding: 11.5px 14px;
+    background-color: #fff;
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 12.59pt;
+    border: 2px solid #636363;
+    border-radius: 15px;
+    color: #363636;
+}
+
+.linkSty:hover {
+    background-color: #e7e7e7;
+    border: 2px solid #e7e7e7;
+    color: #363636;
+}
+
+.linkSty:focus {
+    outline: none;
+}
+
+.boardBtn button,
+.boardBtn input {
+    /*width: 95px;*/
+    height: 50px;
+    background-color: #fff;
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 12.59pt;
+    border: 2px solid #636363;
+    border-radius: 15px;
+    color: #363636;
+}
+
+.notice p {
+    margin-bottom: 0px;
+    line-height: 24px;
+}
+
+.bWrite p {
+    font-family: 'NotoSansCJKkr-Medium';
+    font-size: 17px;
+    text-transform: uppercase;
+    width: 105px;
+    margin-bottom: 0px;
+}
+
+.bWrite .boardWrite div:nth-child(3) p {
+    width: 167px;
+}
+
+.boardWrite input {
+    width: 310px;
+    height: 35px;
+    border: 1px solid #d2d2d2;
+    outline: none;
+    padding: 0 10px;
+    font-size: 12.75pt;
+    color: #636363;
+    font-family: 'NotoSansCJKkr-Regular';
+}
+
+.boardWrite input[type="file"] {
+    border: none;
+    padding-left: 0;
+    height: 24px;
+}
+
+.fnotice .vecGreet {
+    margin-bottom: 30px;
+}
+
+.searchBtn {
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 25px;
+}
+
+.searchBtn button {
+    position: relative;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 4px 7px;
+    right: -240px;
+    top: -17px;
+    border-left: 2px solid #e7e7e7;
+}
+
+.searchBtn input {
+    width: 235px;
+    height: 31px;
+    border: 2px solid #e7e7e7;
+    border-radius: 5px;
+    outline: none;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 50px;
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 17px;
+    color: #e7e7e7;
+}
+
+.notice .table {
+    border: 2px solid #e7e7e7;
+    margin-bottom: 43px;
+}
+
+.notice .table th {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 23px;
+    color: #363636;
+    background: #f5f5f5;
+    text-align: center;
+    font-weight: normal;
+    / border-left: 1px solid #e7e7e7;
+    / border-top: 4px solid #e7e7e7!important;
+    border-bottom: none;
+    line-height: 1;
+    padding-right: 0;
+    padding-bottom: 6px;
+    width: 100px;
+}
+
+.notice .table th:nth-child(2) {
+    width: 300px;
+}
+
+.notice .table th:nth-child(3) {
+    width: 150px;
+}
+
+.notice .table th span {
+    float: right;
+    width: 3px;
+    background: #e9e9e9;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.notice .table th:last-of-type span {
+    background: transparent;
+}
+
+.notice .table td {
+    font-family: 'NotoSansCJKkr-Thin';
+    font-size: 17px;
+    color: #363636;
+    text-align: center;
+    border: 0;
+    padding: 15px;
+}
+
+.fnotice .boardBtn .bFiv {
+    padding: 11.5px 23px;
+}
+
+
+/*divya form*/
+
+
+/*mano start*/
+
+.test1 {
+    border: 2px solid #e7e7e7;
+}
+
+.test1 .maz h4 {
+    text-align: right;
+    font-family: 'NotoSansCJKkr-Thin';
+    font-size: 15px;
+    color: #363636;
+    padding: 10px 0px 0px;
+}
+
+.test1 .star h6 {
+    text-align: right;
+    color: #363636;
+    font-family: 'NotoSansCJKkr-Thin';
+    font-size: 12px;
+    margin-top: 0px;
+    padding: 4px 0px;
+}
+
+.star h6 a {
+    color: #363636;
+    text-decoration: none;
+}
+
+.test1 .stars h5 {
+    font-family: 'NotoSansCJKkr-Thin';
+    font-size: 17px;
+    line-height: 2.5;
+    margin: -10px 0 50px 0;
+}
+
+.test1 h3 {
+    padding: 4px 0 0 0;
+    font-family: 'NotoSansCJKkr-Medium';
+    font-size: 30px;
+    margin-left: -15px;
+}
+
+.test1 section {
+    border-bottom: 3px solid #e7e7e7;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.starss {
+    margin: 0 auto;
+}
+
+.starss img {
+    margin-bottom: 40px;
+    width: 550px;
+    height: 350px;
+}
+
+.test .backbt {
+    margin: 4% 0 4% -15px;
+}
+
+
+/*.bang {
+
+    padding: 11.5px 33px;
+
+    background-color: #fff;
+
+    font-family: 'NotoSansCJKkr-Regular';
+
+    font-size: 12.59pt;
+
+    border: 2px solid #636363;
+
+    border-radius: 15px;
+
+    color: #363636;
+
+}
+
+.bang {
+
+    text-decoration: none;
+
+    outline: none;
+
+    color: #363636;
+
+}
+
+.bang:hover {
+
+    background: #616e7e;
+
+    text-decoration: none;
+
+    color: #fff;
+
+}*/
+
+.star {
+    margin-top: -16px;
+    padding-right: 0px;
+}
+
+.maz p {
+    display: inline;
+    font-size: 16px;
+}
+
+.greet .maz h4 span {
+    font-size: 15px;
+}
+
+.test .backbts {
+    margin: 7.4% 0 4% 14%;
+}
+
+.test .backbts1 {
+    margin: 7.4% 0 4% 12%;
+}
+
+.test .backbts2 {
+    margin: 7.4% 0 4% 12%;
+}
+
+.test .backbt2 {
+    margin-top: 1%;
+}
+
+.test1 {
+    border: 2px solid #e7e7e7;
+    padding: 15px;
+}
+
+.test1 .maz h4 {
+    text-align: right;
+    padding-right: 0;
+    font-family: 'NotoSansCJKkr-Thin';
+    font-size: 15px;
+    color: #363636;
+}
+
+.test1 .maz h4 {
+    margin: -3% 0 4% 0;
+}
+
+.star {
+    margin-top: -16px;
+}
+
+.star a {
+    color: #363636;
+    text-decoration: none;
+}
+
+.test1 .stars h5 {
+    font-family: 'NotoSansCJKkr-Thin';
+    font-size: 17px;
+    line-height: 2.5;
+    margin-bottom: 50px;
+    /*float: left;*/
+}
+
+.test1 h3 {
+    padding: 0px;
+    font-family: 'NotoSansCJKkr-Medium';
+    font-size: 30px;
+    margin: -2px 0 0 2px;
+}
+
+.starss {
+    margin: 0 auto;
+}
+
+.starss img {
+    margin-bottom: 40px;
+    margin-top: 10%;
+    width: 550px;
+    height: 350px;
+}
+
+.test .backbt {
+    margin: 4% 0 4% 0px;
+}
+
+.bang {
+    padding: 11.5px 33px;
+    background-color: #fff;
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 12.59pt;
+    border: 2px solid #636363;
+    border-radius: 15px;
+    color: #363636;
+}
+
+.bang {
+    text-decoration: none;
+    outline: none;
+    color: #363636;
+}
+
+.bang:hover {
+    background: #616e7e;
+    text-decoration: none;
+    color: #fff;
+}
+
+.maz p {
+    display: inline;
+    font-size: 16px;
+}
+
+.greet .maz h4 span {
+    font-size: 15px;
+}
+
+.test .backbts {
+    margin: -58.6% 0 4% -220%;
+}
+
+.test .backbts1 {
+    margin: -18.6% 0 4% -110%;
+}
+
+.test .backbts2 {
+    margin: -18.6% 0 4% 0%;
+}
+
+.test .backbt2 {
+    margin-top: 1%;
+    float: right;
+}
+
+.maz2 {
+    margin: -2px 0 17px;
+}
+
+
+/*mano end*/
+
+.boardWrite #cke_editor .cke_reset {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 0;
+}
+
+.boardWrite #cke_editor {
+    width: 100% !important;
+    margin-bottom: 0;
+    margin-left: 14px;
+}
+
+.detailBtn {
+    display: flex;
+}
+.catalogue .detailBtn {
+    padding-right: 0px;
+}
+
+.detailBtn div {
+    width: 50%;
+}
+
+.boardBtn .bFiv {
+    padding: 11.5px 22px;
+}
+
+.boardBtn div:nth-child(2) a:nth-child(2) {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.company_info a {
+    color: #333333;
+}
+
+.menuUlHeight {
+    height: 695px;
+}
+
+.wView {
+    display: block;
+}
+
+.mView {
+    display: none;
+}
+
+
+/***pagination***/
+
+div.pagination span.current {
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    font-weight: bold;
+    color: #c30d23;
+    border-bottom: 2px solid #c30d23;
+}
+
+div.pagination a {
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    text-decoration: none;
+    color: #d0d0d0;
+}
+
+div.pagination {
+    padding: 3px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+
+/***pagination***/
+
+.prRoom .vecwidth2,
+.catalogue .vecwidth2,
+.msds .vecwidth2 {
+    max-width: 100%;
+}
+
+.catList {
+    display: flex;
+}
+
+.catList div {
+    width: 32%;
+    text-align: center;
+}
+
+.catList div img {
+    padding: 8px;
+    height: 180px;
+    width: 100%;
+}
+
+
+/*.prRoom .boardBtn, .catalogue .boardBtn, .msds .boardBtn, .fnotice .boardBtn {*/
+
+
+/*    margin-right: 17px;*/
+
+
+/*}*/
+
+.catList a {
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 14px;
+    color: #363636;
+}
+
+.stars h5 p img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.prRoom .vecsub,
+.catalogue .vecsub {
+    padding-bottom: 50px;
+}
+
+.prRoom a,
+.catalogue a,
+.msds a {
+    color: #363636;
+}
+
+.bWrite p {
+    width: 151px;
+}
+
+
+/*.category .boardWrite #cke_editor {
+
+    margin-left: 28px;
+
+}*/
+
+.prRoom .vecGreet {
+    margin-bottom: 30px;
+}
+.errM {
+    color: red;
+    font-size: 15px;
+    font-family: 'NotoSansCJKkr-Bold';
+    margin: 50px 0;
+    text-align: center;
+}
+
+.gasketVectable {
+    padding-bottom: 50px;
+}
+
+.wView {
+    display: block;
+}
+
+.mView {
+    display: none;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+.flogin input[type="text"]:focus,
+.flogin input[type="password"]:focus {
+    border-color: #e7e7e7;
+}
+
+.lft19 {
+    padding-left: 19px;
+}
+
+.avs .vectable div {
+    width: 909px;
+}
+
+.prRoom .content,
+.catalogue .content {
+    max-width: 953px;
+}
+
+.catDet .vecDetail {
+    padding-top: 8px;
+}
+
+
+/*.bead .vecsub {*/
+
+
+/*    padding-left: 19px;*/
+
+
+/*}*/
+
+.fdtnov2 .vecwidth2 {
+    width: 959px;
+}
+
+.fdt .vectable:last-child {
+    width: 900px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fdt.fdtnov2 .vectable:last-child {
+    width: auto;
+}
+
+.privatepolicy .full-width {
+    padding: 0px 364px 0px 212px;
+    max-width: unset;
+}
+
+.private {
+    padding-bottom: 80px;
+    padding-top: 10px;
+}
+
+.private p,
+.private table td {
+    font-family: 'NotoSansCJKkr-Thin';
+    font-size: 15px;
+    letter-spacing: -0.8px;
+    color: #808080;
+    padding-left: 17px;
+    line-height: 35px;
+    margin-bottom: 0px;
+}
+
+.private table td {
+    padding-left: 0px;
+}
+
+.privatetable1 table td:first-child {
+    width: 97px;
+}
+
+.privatetable1 table td:nth-child(2) {
+    width: 155px;
+}
+
+.privatetable1 table td:nth-child(3) {
+    width: 259px;
+}
+
+.privatetable1 table td:last-child {
+    width: 80px;
+}
+
+.privatetable2 table td:first-child {
+    width: 138px;
+}
+
+.privatetable2 table td:nth-child(2) {
+    width: 168px;
+}
+
+.privatetable2 table td:nth-child(3) {
+    width: 117px;
+}
+
+.privatetable2 table td:last-child {
+    width: 143px;
+}
+
+.privatetable2 table {
+    width: 564px;
+}
+
+.private table {
+    border-collapse: collapse;
+    margin-left: 17px;
+}
+
+.privatetable1 table {
+    width: 591px;
+}
+
+.private table,
+.private td,
+.private th {
+    border: 1px solid #e8e8e8;
+}
+
+.private div:first-child {
+    padding-bottom: 17px;
+}
+
+.private.legal div:first-child {
+    padding-bottom: 45px;
+}
+
+.private h2 {
+    font-family: 'NotoSansCJKkr-Medium';
+    font-size: 16px;
+    color: #666666;
+    padding-left: 17px;
+    margin-bottom: 8px;
+}
+
+.private p span img {
+    padding-top: 15px;
+}
+
+.private p span {
+    padding-right: 14px;
+}
+
+.private div {
+    padding-bottom: 16px;
+}
+
+.private div:nth-child(3) p:nth-of-type(2) span {
+    padding-right: 10px;
+}
+
+.private div:nth-child(3) p:first-of-type span {
+    padding-right: 10px;
+}
+
+.privacyhole {
+    padding-left: 14px;
+    padding-bottom: 1px !important;
+}
+
+.legal.private h2 {
+    margin-bottom: 5px;
+}
+
+.legal.private div {
+    padding-bottom: 45px;
+}
+
+.legal.private div:last-of-type p {
+    line-height: 20px;
+}
+
+.legal {
+    padding-top: 18px;
+}
+
+.private div.privatetable1,
+.private div.privatetable2 {
+    padding-bottom: 27px;
+}
+
+.para3 {
+    background-color: #fff;
+    padding: 30px 10px;
+    height: 330px;
+    overflow: auto;
+    margin-top: 30px;
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.fewRec2 .para3 h1 {
+    font-size: 23px !important;
+    padding-bottom: 10px !important;
+}
+
+.fewRec2 .private div:first-child {
+    padding-bottom: 15px;
+}
+
+.fewRec2 .private p,
+.private table td {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.fewRec2 .private h2 {
+    font-size: 15px;
+}
+
+.fewRec2 .private {
+    padding-bottom: 0px;
+}
+
+.fewRec2 .bWrite .boardWrite div:nth-child(6) p {
+    width: 167px;
+}
+
+.para2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.para2 p {
+    font-family: 'NotoSansCJKkr-Thin';
+    font-size: 16px;
+    color: #808080;
+}
+
+.para2 p input[type=checkbox] {
+    margin-right: 10px;
+}
+
+.quote .notice .table th {
+    font-size: 18px;
+}
+
+.wid12 {
+    width: 12% !important;
+}
+
+.fdt980 .rtxt p br {
+    display: block;
+}
+
+.fnote .vecGreet {
+    width: 898px;
+}
+.coat .pigmentsub > div:first-child {
+    padding: 28px 0px 36px 21px;
+}
+.con2 .title h1 {
+    font-family: "NotoSansCJKkr-Medium";
+    font-size: 35px;
+    padding-left: 15px;
+    color: #363636;
+    margin: 0px;
+    line-height: 0.9;
+}
+.title {display:flex;}
+.con2 .banner{
+    padding:50px 0px;
+}
+.fewGreet h2 {
+    font-family: 'NotoSansCJKkr-Medium';
+    font-size: 30px;
+    color: #363636;
+    margin-bottom: 0px;
+    padding: 40px 0px;
+    text-align: center;
+}
+.fewGreet h2 span {
+    color: #e60012;
+}
+.fewGreet h5 {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 17px;
+    color: #363636;
+    text-align: left;
+    line-height: 1.7;
+}
+.fewGreet h4 {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 20px;
+    color: #363636;
+    margin-top: 0;
+    text-align: right;
+}
+.fewGreet h3 span {
+    font-family: 'NotoSansCJKkr-Regular';
+    font-size: 17px;
+    color: #363636;
+    margin-top: 40px;
+    margin-bottom:0px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 1.7;
+}
+.fewGreet h4 span {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 17px;
+}
+.full-width {
+    display: flex;
+}
+.full-width .con1 {
+    width:552px;
+    padding-left: 212px;
+}
+.full-width .con2 {
+    width: 1000px;
+    padding: 100px 50px;
+}
+.sideBar {
+    max-width: 340px;
+    background-color: #eeeeee;
+    height: 1340px;
+    position: fixed;
+}
+.sideBan {
+    width: 340px;
+    height: 319px;
+    padding: 97px 19px 19px;
+    text-align: left;
+}
+.fewGreet .sideBan {
+    background: url(../images/greet.png);
+}
+.sideBan h1 {
+    color: #fff;
+    font-family: "NotoSansCJKkr-Regular";
+    font-size: 24px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+    margin: 0px;
+    display: inline;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: -ms-fit-content;
+    width: fit-content;
+}
+.sideBar ul li {
+    padding: 10px 0px 9px;
+    color: #7d7d7d;
+    font-family: "NotoSansCJKkr-Thin";
+    font-size: 16px;
+    text-align: center;
+}
+.sideBar ul .active {
+    background: #fff;
+}
+.sideBar div:last-of-type {
+    padding-top: 39px;
+}
+.fewLoc .title {
+    padding-bottom: 50px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body { -ms-overflow-style: none; }
+.fewGasses .proCon1,.fewGasses1 .proCon1,.fewGasses2 .proCon1,.fewGasses3 .proCon1,.fewGasses4 .proCon1 {
+    padding: 35px 0px 40px 18px;
+}
+.sideBan p {
+    color:#fff;
+    font-family: "NotoSansCJKkr-Regular";
+    font-size: 14px;
+    padding-top:120px;
+    line-height: 1.3;
+    margin: 0px;
+}
+.proCon1 h5:before, .fewGasket .vecsub h5:before, .fewFdt2 .proCon2 h5:before {
+    content: url(../images/vector_line.png);
+    position: relative;
+    top: -5px;
+    left: -19px;
+}
+.proCon1 h5 {
+    font-family: "NotoSansCJKkr-Medium";
+    font-size: 18px;
+    padding-bottom: 19px;
+    color: #363636;
+    margin-bottom: 0px;
+    line-height: 0.9;
+}
+.proCon1 p {
+    font-family: "NotoSansCJKkr-Light";
+    font-size: 14px;
+    padding-left: 26px;
+    padding-bottom: 41px;
+    color: #363636;
+    margin-bottom: 0px;
+    line-height: 1.5;
+}
+.proBtn a {
+    background-color: #e8e8e8;
+    display: flex;
+    align-items: center;
+    color: #363636;
+    font-family: "NotoSansCJKkr-Light";
+    padding: 7px 8px 7px 9px;
+    font-size: 13px;
+}
+.proBtn a img {
+    padding-left: 5px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.proBtn {
+    width: 118px;
+    float: right;
+}
+.vectable table {
+    border-bottom:3px solid #e8e8e8;
+    margin-bottom: 60px;
+}
+.proConPara h6 {
+    font-family: "NotoSansCJKkr-Light";
+    font-size: 14px;
+    color: #363636;
+    margin-bottom: 0px;
+    text-align: right;
+}
+.proConPara h6:before {
+    content: url(../images/dot.png);
+    position: relative;
+    top: -2px;
+    left: -6px;
+}
+.fewChe1 .sideBan {
+    background :url(../images/vector_2.png);
+}
+.fewChe1 .proCon1, .fewChe2 .proCon1, .fewChe3 .proCon1, .fewAvs .proCon1, .fewFdt1 .proCon1, .fewFdt2 .proCon1, .fewBead1 .proCon1, .fewBead2 .proCon1, .fewBead3 .proCon1, .fewCoated .proCon1, .fewPig .proCon1{
+    padding-top:50px;
+}
+.fewChe1 .proCon1 .proConPara1,.fewChe2 .proCon1 .proConPara1,.fewChe3 .proCon1 .proConPara1,.fewAvs .proCon1 .proConPara1,.fewFdt1 .proCon1 .proConPara1, .fewFdt2 .proCon1 .proConPara1, .fewBead1 .proCon1 .proConPara1, .fewBead2 .proCon1 .proConPara1, .fewBead3 .proCon1 .proConPara1{
+    width: 350px;
+}
+.fewChe1 .proCon1 .proConPara2,.fewChe2 .proCon1 .proConPara2,.fewChe3 .proCon1 .proConPara2,.fewAvs .proCon1 .proConPara2,.fewFdt1 .proCon1 .proConPara2,.fewFdt2 .proCon1 .proConPara2,.fewBead1 .proCon1 .proConPara2,.fewBead2 .proCon1 .proConPara2,.fewBead3 .proCon1 .proConPara2{
+    width: 550px;
+    padding-left: 70px;
+}
+.fewChe3 .proCon1 .proConPara2 {
+    padding-left: 51px;
+}
+.flxOnly {
+    display: flex;
+}
+.fewChe3 .encoat1 .vecsub p {
+    padding-bottom: 0px;
+    letter-spacing: 0;
+    padding-left: 42px;
+}
+.fewChe3 .ewidth1 label {
+    width: 151px;
+}
+.fewChe3 .proCon1 .proConPara2 p span{
+    padding: 0px 30px;
+    position: relative;
+    bottom: -6px;
+}
+.fewChe3 .proCon1 p {
+    padding-bottom: 0px;
+    font-size: 13px;
+}
+.fewGasket .vecsub > div:last-child {
+    padding-bottom: 30px;
+}
+.padBot100{
+        padding-bottom: 100px;
+}
+.fewChe1 .proCon1, .fewChe2 .proCon1, .fewChe3 .proCon1 {
+    padding-top: 50px;
+}
+.fewChe3 .ewidth2 label {
+    width: 156px;
+}
+.fewChe3 .ewidth4 label {
+    width: 160px;
+}
+.fewPr .full-width .con2, .fewMsds .full-width .con2 {
+    padding: 100px 50px 50px;
+}
+.fewAvs .sideBan {
+    background: url(../images/shutter.png);
+}
+.fewFdt1 .sideBan, .fewFdt2 .sideBan  {
+    background :url(../images/vector_5.png);
+}
+.fewFdt1 .proConPara2 p {
+    font-family: "NotoSansCJKkr-Light";
+    font-size: 14px;
+    padding-left: 26px;
+    padding-bottom: 41px;
+    color: #363636;
+    margin-bottom: 0px;
+    line-height: 2;
+    letter-spacing: 0;
+}
+.fewFdt1 .proConPara2 p span {
+    letter-spacing: 0px;
+}
+.fewFdt1 .iconSec .flx div {
+    height: 217px;
+    width: 165px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+}
+.fewFdt1 .iconSec .flx div:last-of-type {
+    margin-right: 0px;
+}
+.fewFdt1 .iconSec .flx p {
+    font-family: "NotoSansCJKkr-Light";
+    font-size: 13px;
+    color: #363636;
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 0;
+}
+.fewFdt1 .iconSec{padding:50px 0;}
+.fewPr .full-width .con2, .fewMsds .full-width .con2 {
+    padding: 100px 50px 50px;
+}
+.padBot50{
+       padding-bottom: 50px;
+}
+.fewPr .catList div, .fewMsds .catList div, .fewCat .catList div {
+    width: 300px;
+    text-align: center;
+}
+
+.fewPr .catList div img, .fewMsds .catList div img, .fewCat .catList div img {
+    padding: 10px 0;
+    height: 180px;
+    width: 100%;
+}
+.fewPr .catList div:nth-child(2) img, .fewMsds .catList div:nth-child(2) img,
+.fewCat .catList div:nth-child(2) img {
+    padding-left:10px;
+    padding-right:10px;
+}
+.boardBtn {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.fewCatDet span a, .fewPrDet span a, .fewMsdsDet span a{
+        color: #363636;
+}
+
+
+
+
+.fewFdt2 .proCon2 h5{
+    font-family: "NotoSansCJKkr-Medium";
+    font-size: 18px;
+    padding-bottom: 19px;
+    color: #363636;
+    margin-bottom: 0px;
+    line-height: 0.9;
+        margin-left: 20px;
+}
+.novec2sub div:nth-child(2) div:first-child img{
+    padding-right: 45px;
+}
+.fewFdt2 .novec2sub1 ul li, .novec2sub1 p, .novec2sub2 p {
+    font-family: 'NotoSansCJKkr-Light';
+    font-size: 12px;
+    color: #000;
+    line-height: 1.5;
+}
+.fewFdt2 .novec2sub1 li:before {
+    content: url(../images/dot.png);
+    position: relative;
+    top: -2px;
+    left: -6px;
+}
+.novec2sub1 p {
+    padding-top: 9px;
+    margin-bottom: 0px;
+}
+.fewFdt2 .novec2sub1 ul li{
+    padding-left: 6px;
+}
+.fewFdt2 .vectable table {
+    margin-bottom: 10px;
+}
+.fewBead1 .sideBan,.fewBead2 .sideBan,.fewBead3 .sideBan,.fewCoated .sideBan,.fewPig .sideBan {
+    background :url(../images/vector_4.png);
+}
+.fewCoated .proCon1 .proConPara3, .fewPig .proCon1 .proConPara3{
+    padding-left:20px;
+}
+.fewCoated .proBtn, .fewPig .proBtn {
+    width: 237px;
+    display: flex;
+}
+.fewCoated .proBtn div:first-of-type, .fewPig .proBtn div:first-of-type{
+   margin-right: 20px;
+}
+.fewCoated .proCon1 .proConPara1,.fewCoated .proCon1 .proConPara4{
+    width:420px;
+}
+.fewPig .proCon1 .proConPara1,.fewPig .proCon1 .proConPara4{
+    width:575px;
+}
+.fewPig .proCon1 .proConPara2,.fewPig .proCon1 .proConPara3,.fewCoated .proCon1 .proConPara2,.fewCoated .proCon1 .proConPara3{
+    width:480px;
+}
+.fewPig .proCon1 .proConPara4 div:first-of-type, .fewCoated .proCon1 .proConPara4 div:first-of-type{
+float: right;
+}
+.padTop50{
+    padding-top:50px;
+}
+.pigmentsub1 {
+    padding-bottom: 35px;
+    display: flex;
+}
+.fewPig .proCon1 p {
+    font-size: 13px;
+}
+.fewPriv .con2 .title h1, .fewLeg .con2 .title h1 {
+ padding-bottom: 28px;
+}
+.fewCoated .flxSpaceBtn{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:50px;
+}
+
+.fewPig .flxSpaceBtn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+.fewPig .txt1, .fewPig .txt3, .fewPig .txt5{
+    background-color: #f9f9f9;
+}
+.fewGasses .sideBan p, .fewGasses1 .sideBan p, .fewGasses2 .sideBan p, .fewGasses3 .sideBan p,
+.fewGasses4 .sideBan p, .fewFdt1 .sideBan p, .fewFdt2 .sideBan p {
+    padding-top: 125px;
+}
+.eView, .mView {
+    display:none;
+}
+.eViewN, .wView {
+    display:block;
+}
+.eView, .mView {
+    display:none;
+}
+.eViewN, .wView {
+    display:block;
+}
+.sliWid{
+    width:350px;height:200px;
+}
+.sliWidFdt2{
+    width:348px;height:441px;
+}
+.fewNotDet .boardBtn {
+        display: flex;
+    }
+    .fewBead1 .proCon1 p {
+    font-size: 13px;
+}
+@media (min-width: 1600px) and (max-width: 1919px) {
+    .fewLog .sideBar div:last-of-type {
+    padding-top: 50px;
+}
+    .s_gnb {
+    line-height: 3;
+    margin: 5px 10px;
+}
+    .terms_area {
+    text-align: center;
+    }
+    .inx1 {
+    width: 65%;
+    padding-left: 50px;
+}
+
+.introBg .flx img {
+    width: 76%;
+    margin-left: 93px;
+}
+
+    .hlayer {
+    margin-top: 606px;
+    margin-left: 703px;
+    width: 75%;
+}
+.blayer {
+    margin-top: 156px;
+    margin-left: 589px;
+    width: 53%;
+}
+    .s_gnb {
+    line-height: 3;
+    margin: 5px 10px;
+}
+       .gasketImg .flx div p, .gasketImg .Lflx div p {
+    font-size: 11px;
+    }
+    .full-width .con1 {
+        width: 300px;
+        padding-left: 0px;
+    }
+    .sideBar {
+        max-width: 300px;
+    }
+    .sideBan {
+        width: 300px;
+    }
+    .full-width .con2 {
+        width: 1000px;
+            padding: 100px 50px;
+    }
+    .gnb_bg {
+        width: 300px;
+    }
+    .fewGreet .sideBan,.fewHis .sideBan,.fewLoc .sideBan,.fewGasses .sideBan,.fewGasses1 .sideBan,.fewGasses2 .sideBan,.fewGasses3 .sideBan,.fewGasses4 .sideBan,.fewChe1 .sideBan,.fewChe2 .sideBan,.fewChe3 .sideBan,
+    .fewGasket .sideBan,.fewBead1 .sideBan,.fewBead2 .sideBan,.fewBead3 .sideBan,.fewPig .sideBan,.fewCoated .sideBan,.fewFdt1 .sideBan,.fewFdt2 .sideBan,.fewAvs .sideBan,.fewChe1 .sideBan,.fewChe2 .sideBan,.fewChe3 .sideBan,
+    .fewRec1 .sideBan,.fewRec2 .sideBan,.fewRec1Det .sideBan,.fewLog .sideBan,.fewRec1Mas .sideBan,.fewRec1E .sideBan,.fewInq .sideBan,.fewNotEdit .sideBan,.fewNotMas .sideBan,.fewNotDet .sideBan,.fewNot .sideBan,.fewCatE .sideBan,
+    .fewCatMas .sideBan,.fewCat .sideBan,.fewMsds .sideBan,.fewPr .sideBan,.fewCatDet .sideBan,.fewMsdsDet .sideBan,.fewPrDet .sideBan, .fewPriv .sideBan, .fewLeg .sideBan {
+        background-size: 300px 285px;
+        background-repeat: no-repeat;
+    }
+    .sideBar div:last-of-type {
+        padding-top: 0px;
+    }
+    .sideBan {
+        padding: 50px 19px 19px;
+    }
+    .sns span {
+        padding: 0 0px 0 7px;
+    }
+    .eView{
+        display:block;
+    }
+    .terms_area p, .company_info {
+        text-align: center;
+    }
+    .sns a{  /*583*/
+             font-size: 12px;
+    }
+    .gnb_wrap {
+        padding: 100px 40px 50px 40px;
+    }
+    .fewGasses .sideBan p, .fewGasses1 .sideBan p, .fewGasses2 .sideBan p, .fewGasses3 .sideBan p, .fewGasses4 .sideBan p {
+        padding-top: 142px;
+    }
+    .fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p{
+         padding-top: 153px;
+    }
+   .fewGasket .sideBan p{
+        padding-top: 123px;
+    }
+    .fewChe1 .sideBan p, .fewChe2 .sideBan p, .fewChe3 .sideBan p {
+        padding-top: 121px;
+    }
+    .fewFdt1 .sideBan p,.fewFdt2 .sideBan p {
+        padding-top: 143px;
+    }
+    .fewAvs .sideBan p {
+        padding-top: 126px;
+    }
+    .sideBan p{font-size:13px;}
+    .fewAvs .sideBan p {
+    font-size: 12px;
+}
+.fewBead1 .proCon1 .proConPara2 {
+    padding-left: 37px;
+}
+}
+@media (min-width: 1440px) and (max-width: 1599px) {
+     .fewBead1 .proCon1 p {
+    font-size: 12px;
+}
+.fewBead1 .bStrat .table td{
+   font-size: 12px;
+}
+        .fewBead1 .sliWid {
+    width: 230px;
+    height: 142px;
+}
+    .fewChe1 .proCon1 h5 {
+	font-size: 17px;
+}
+    .fewLog .sideBar div:last-of-type {
+    padding-top: 50px;
+}
+    .fdt980 .rtxt {
+    width: auto;
+}
+    .hisRight h5,.hisLeft h5 {
+    font-size: 11.95px;
+}
+    .inx1 {
+    width: 59%;
+}
+
+.introBg .flx img {
+    width: 88%;
+    margin-left: 51px;
+}
+    .hlayer {
+    margin-top: 606px;
+    margin-left: 634px;
+    width: 72%;
+}
+
+.blayer {
+    margin-top: 209px;
+    margin-left: 503px;
+    width: 53%;
+}
+    .s_gnb {
+    line-height: 3;
+    margin: 5px 10px;
+}
+        .gasketImg .flx div p, .gasketImg .Lflx div p {
+    font-size: 11px;
+    }
+    .full-width .con1 {
+        width: 280px;
+        padding-left: 0px;
+    }
+    .sideBar {
+        max-width: 280px;
+    }
+    .sideBan {
+        width: 280px;
+    }
+    .full-width .con2 {
+        width: 880px;
+        padding: 100px 40px;
+    }
+    .gnb_bg {
+        width: 280px;
+    }
+    .fewGreet .sideBan,.fewHis .sideBan,.fewLoc .sideBan,.fewGasses .sideBan,.fewGasses1 .sideBan,.fewGasses2 .sideBan,.fewGasses3 .sideBan,.fewGasses4 .sideBan,.fewChe1 .sideBan,.fewChe2 .sideBan,.fewChe3 .sideBan,
+    .fewGasket .sideBan,.fewBead1 .sideBan,.fewBead2 .sideBan,.fewBead3 .sideBan,.fewPig .sideBan,.fewCoated .sideBan,.fewFdt1 .sideBan,.fewFdt2 .sideBan,.fewAvs .sideBan,.fewChe1 .sideBan,.fewChe2 .sideBan,.fewChe3 .sideBan,
+    .fewRec1 .sideBan,.fewRec2 .sideBan,.fewRec1Det .sideBan,.fewLog .sideBan,.fewRec1Mas .sideBan,.fewRec1E .sideBan,.fewInq .sideBan,.fewNotEdit .sideBan,.fewNotMas .sideBan,.fewNotDet .sideBan,.fewNot .sideBan,.fewCatE .sideBan,
+    .fewCatMas .sideBan,.fewCat .sideBan,.fewMsds .sideBan,.fewPr .sideBan,.fewCatDet .sideBan,.fewMsdsDet .sideBan,.fewPrDet .sideBan, .fewPriv .sideBan, .fewLeg .sideBan {
+        background-size: 280px 234px;
+        background-repeat: no-repeat;
+    }
+    .sideBar div:last-of-type {
+        padding-top: 0px;
+    }
+    .sideBan {
+        padding: 50px 19px 19px;
+    }
+    .sns span {
+        padding: 0 0px 0 7px;
+    }
+    .eView{
+        display:block;
+    }
+    .terms_area p, .company_info {
+        text-align: center;
+    }
+    .sns a{
+        font-size:11px;
+    }
+    .fewGreet h2 {
+        font-size: 27px;
+    }
+    .fewGreet h5 {
+        font-size: 16px;
+    }
+    .sns a{  /*583*/
+             font-size: 12px;
+    }
+    .gnb_wrap {
+        padding: 100px 35px 50px 35px;
+    }
+    .vecLoc1 .vecsub p {
+        font-size: 13px;
+    }
+    .fewGasses .sideBan p, .fewGasses1 .sideBan p, .fewGasses2 .sideBan p, .fewGasses3 .sideBan p, .fewGasses4 .sideBan p,.fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p {
+        padding-top: 105px;
+    }
+ .fewGasket .sideBan p {
+        padding-top: 73px;
+    }
+    .vectable thead tr th:first-child {
+        min-width: 117px;
+    }
+    .vectable thead tr th:nth-child(2) {
+        min-width: 60px;
+    }
+    .vectable thead tr th:nth-child(4) {
+        min-width: 90px;
+    }
+    .gases4 .vectable {
+        width: auto;
+    }
+    .fewChe1 .sideBan p, .fewChe2 .sideBan p, .fewChe3 .sideBan p {
+        padding-top: 70px;
+    }
+    .proConPara1 img, .proConPara4 img, .slideWholeWidth, .slideWidth{
+        width:363px;
+        height:224px;
+    }
+    .fewCoated .proCon1 .proConPara1, .fewCoated .proCon1 .proConPara4 {
+        width: 485px;
+    }
+    .fewFdt1 .sideBan p,.fewFdt2 .sideBan p {
+        padding-top: 95px;
+    }
+    .fewFdt1 .proConPara1 img{
+        width: 363px;
+        height: auto;
+    }
+    .fewFdt1 .iconSec .flx p {
+        font-size: 11px;
+    }
+    .fdt980 .rtxt p {
+        font-size: 11px;
+    }
+    .fewFdt2 .novec2sub2 h6 {
+        font-family: 'NotoSansCJKkr-Light';
+        font-size: 13px;
+    }
+    .fewAvs .sideBan p {
+        padding-top: 83px;
+    }
+     .sideBan p{font-size:13px;}
+         .fewAvs .sideBan p {
+    font-size: 11px;
+}
+.fewGasses1 .vectable thead tr th:nth-child(2) {
+    min-width: 156px;
+}
+.fewGasses3 .gases3 .vectable tbody tr:first-of-type td:nth-child(2), .gases4 .vectable tbody tr:first-of-type td:nth-child(2) {
+    min-width: 103px;
+}
+.fewGasses3 .gases3 .vectable tbody tr:first-of-type td:nth-child(3), .gases4 .vectable tbody tr:first-of-type td:nth-child(3) {
+    min-width: 152px;
+}
+
+.fewGasses4 .gases3 .vectable tbody tr:first-of-type td:nth-child(2), .gases4 .vectable tbody tr:first-of-type td:nth-child(2) {
+    min-width: 126px;
+}
+.fewGasses4 .gases3 .vectable tbody tr:first-of-type td:nth-child(3), .gases4 .vectable tbody tr:first-of-type td:nth-child(3) {
+    min-width: 137px;
+}
+.fewBead1 .proCon1 .proConPara2 {
+    padding-left: 26px;
+    }
+    .private p, .private table td {
+    font-size: 13.6px;
+}
+}
+@media (min-width: 1366px) and (max-width: 1439px) {
+       .fewBead1 .proCon1 p {
+    font-size: 12px;
+}
+.fewBead1 .bStrat .table td{
+   font-size: 12px;
+}
+        .fewBead1 .sliWid {
+    width: 200px;
+    height: 112px;
+}
+.fewBead1 .bStrat .table td:first-child {
+    width: 108px;
+}
+    .fewChe3 .proCon1 h5 {
+	font-size: 17px;
+}
+    .fewLog .sideBar div:last-of-type {
+    padding-top: 50px;
+}
+    .fdt980 .rtxt {
+    width: auto;
+}
+     .fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p{
+      font-size:12px;
+    }
+    .hisRight h5,.hisLeft h5 {
+    font-size: 11.95px;
+}
+    .inx1 {
+    width: 59%;
+}
+
+.introBg .flx img {
+    width: 93%;
+    margin-left: 29px;
+}
+    .hlayer {
+    margin-top: 606px;
+    margin-left: 605px;
+    width: 72%;
+}
+
+.blayer {
+    margin-top: 209px;
+    margin-left: 476px;
+    width: 53%;
+}
+
+    .s_gnb {
+    line-height: 3;
+    margin: 5px 10px;
+}
+        .gasketImg .flx div p, .gasketImg .Lflx div p {
+    font-size: 11px;
+    }
+    .full-width .con1 {
+        width: 260px;
+        padding-left: 0px;
+    }
+    .sideBar {
+        max-width: 260px;
+    }
+    .sideBan {
+        width: 260px;
+    }
+    .full-width .con2 {
+        width: 846px;
+        padding: 100px 30px;
+    }
+    .gnb_bg {
+        width: 260px;
+    }
+    .fewGreet .sideBan,.fewHis .sideBan,.fewLoc .sideBan,.fewGasses .sideBan,.fewGasses1 .sideBan,.fewGasses2 .sideBan,.fewGasses3 .sideBan,.fewGasses4 .sideBan,.fewChe1 .sideBan,.fewChe2 .sideBan,.fewChe3 .sideBan,
+    .fewGasket .sideBan,.fewBead1 .sideBan,.fewBead2 .sideBan,.fewBead3 .sideBan,.fewPig .sideBan,.fewCoated .sideBan,.fewFdt1 .sideBan,.fewFdt2 .sideBan,.fewAvs .sideBan,.fewChe1 .sideBan,.fewChe2 .sideBan,.fewChe3 .sideBan,
+    .fewRec1 .sideBan,.fewRec2 .sideBan,.fewRec1Det .sideBan,.fewLog .sideBan,.fewRec1Mas .sideBan,.fewRec1E .sideBan,.fewInq .sideBan,.fewNotEdit .sideBan,.fewNotMas .sideBan,.fewNotDet .sideBan,.fewNot .sideBan,.fewCatE .sideBan,
+    .fewCatMas .sideBan,.fewCat .sideBan,.fewMsds .sideBan,.fewPr .sideBan,.fewCatDet .sideBan,.fewMsdsDet .sideBan,.fewPrDet .sideBan, .fewPriv .sideBan, .fewLeg .sideBan {
+        background-size: 260px 234px;
+        background-repeat: no-repeat;
+    }
+    .sideBar div:last-of-type {
+        padding-top: 0px;
+    }
+    .sideBan {
+        padding: 50px 19px 19px;
+    }
+    .sns span {
+        padding: 0 0px 0 7px;
+    }
+    .eView{
+        display:block;
+    }
+    .terms_area p, .company_info {
+        text-align: center;
+    }
+    .sns a{
+        font-size:11px;
+    }
+    .fewGreet h2 {
+        font-size: 27px;
+    }
+    .fewGreet h5 {
+        font-size: 15px;
+    }
+    .gnb_wrap {
+        padding: 100px 30px 50px 30px;
+    }
+    .vecLoc1 .vecsub p {
+        font-size: 13px;
+    }
+    .fewGasses .sideBan p, .fewGasses1 .sideBan p, .fewGasses2 .sideBan p, .fewGasses3 .sideBan p, .fewGasses4 .sideBan p,.fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p {
+        padding-top: 105px;
+    }
+.fewGasket .sideBan p {
+        padding-top: 73px;
+    }
+    .vectable thead tr th:first-child {
+        min-width: 117px;
+    }
+    .vectable thead tr th:nth-child(2) {
+        min-width: 60px;
+    }
+    .vectable thead tr th:nth-child(4) {
+        min-width: 90px;
+    }
+    .gases4 .vectable {
+        width: auto;
+    }
+    .fewChe1 .sideBan p, .fewChe2 .sideBan p, .fewChe3 .sideBan p {
+        padding-top: 70px;
+    }
+    .proConPara1 img, .proConPara4 img, .slideWholeWidth, .slideWidth{
+        width: 345px;
+        height: 213px;
+    }
+    .fewCoated .proCon1 .proConPara1, .fewCoated .proCon1 .proConPara4 {
+        width: 485px;
+    }
+    .fewFdt1 .sideBan p,.fewFdt2 .sideBan p {
+        padding-top: 90px;
+    }
+    .fewFdt1 .proConPara1 img{
+        width: 363px;
+        height: auto;
+    }
+    .fewFdt1 .iconSec .flx p {
+        font-size: 11px;
+    }
+    .fdt980 .rtxt p {
+        font-size: 11px;
+    }
+    .fewFdt2 .novec2sub2 h6 {
+        font-family: 'NotoSansCJKkr-Light';
+        font-size: 13px;
+    }
+    .fewAvs .sideBan p {
+        padding-top: 88px;
+    }
+     .sideBan p{font-size:13px;}
+              .fewAvs .sideBan p {
+    font-size: 10px;
+}
+.fewGasses1 .vectable thead tr th:nth-child(2) {
+    min-width: 156px;
+}
+.fewGasses3 .gases3 .vectable tbody tr:first-of-type td:nth-child(2), .gases4 .vectable tbody tr:first-of-type td:nth-child(2) {
+    min-width: 103px;
+}
+.fewGasses3 .gases3 .vectable tbody tr:first-of-type td:nth-child(3), .gases4 .vectable tbody tr:first-of-type td:nth-child(3) {
+    min-width: 152px;
+}
+
+.fewGasses4 .gases3 .vectable tbody tr:first-of-type td:nth-child(2), .gases4 .vectable tbody tr:first-of-type td:nth-child(2) {
+    min-width: 126px;
+}
+.fewGasses4 .gases3 .vectable tbody tr:first-of-type td:nth-child(3), .gases4 .vectable tbody tr:first-of-type td:nth-child(3) {
+    min-width: 137px;
+}
+.fewRec2 .private p {
+    font-size: 12px;
+}
+.fewBead1 .proCon1 .proConPara2 {
+    padding-left: 37px;
+}
+.private p, .private table td {
+    font-size: 13.3px;
+}
+}
+@media (min-width: 1280px) and (max-width: 1365px) {
+    .fewBead1 .flxOnly{
+    display:block;
+}
+.fewBead1 .sliWid {
+    width: 280px;
+    height: 182px;
+}
+.fewBead1 .proCon1 .proConPara2 {
+    margin-top: 70px;
+}
+    .fewChe3 .proCon1 h5 {
+	font-size: 15px;
+}
+
+    .fewLog .sideBar div:last-of-type {
+    padding-top: 50px;
+}
+    .fdt980 .rtxt {
+    width: auto;
+}
+         .fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p{
+      font-size:12px;
+    }
+        .hisRight h5,.hisLeft h5 {
+    font-size: 11.95px;
+}
+
+    .fewRec2 .private p{
+	font-size: 12px;
+}
+    .inx1 {
+    width: 59%;
+}
+
+.introBg .flx img {
+    width: 93%;
+    margin-left: 29px;
+}
+    .hlayer {
+    margin-top: 606px;
+    margin-left: 571px;
+    width: 72%;
+}
+
+.blayer {
+    margin-top: 219px;
+    margin-left: 437px;
+    width: 53%;
+}
+    .s_gnb {
+    line-height: 3;
+    margin: 5px 10px;
+}
+    .gasketImg .flx div p, .gasketImg .Lflx div p {
+    font-size: 10px;
+    }
+    .full-width .con1 {
+        width: 240px;
+        padding-left: 0px;
+    }
+    .sideBar {
+        max-width: 240px;
+    }
+    .sideBan {
+        width: 240px;
+    }
+    .full-width .con2 {
+        width: 800px;
+        padding: 100px 30px;
+    }
+    .gnb_bg {
+        width: 240px;
+    }
+    .fewGreet .sideBan,.fewHis .sideBan,.fewLoc .sideBan,.fewGasses .sideBan,.fewGasses1 .sideBan,.fewGasses2 .sideBan,.fewGasses3 .sideBan,.fewGasses4 .sideBan,.fewChe1 .sideBan,.fewChe2 .sideBan,.fewChe3 .sideBan,
+    .fewGasket .sideBan,.fewBead1 .sideBan,.fewBead2 .sideBan,.fewBead3 .sideBan,.fewPig .sideBan,.fewCoated .sideBan,.fewFdt1 .sideBan,.fewFdt2 .sideBan,.fewAvs .sideBan,.fewChe1 .sideBan,.fewChe2 .sideBan,.fewChe3 .sideBan,
+    .fewRec1 .sideBan,.fewRec2 .sideBan,.fewRec1Det .sideBan,.fewLog .sideBan,.fewRec1Mas .sideBan,.fewRec1E .sideBan,.fewInq .sideBan,.fewNotEdit .sideBan,.fewNotMas .sideBan,.fewNotDet .sideBan,.fewNot .sideBan,.fewCatE .sideBan,
+    .fewCatMas .sideBan,.fewCat .sideBan,.fewMsds .sideBan,.fewPr .sideBan,.fewCatDet .sideBan,.fewMsdsDet .sideBan,.fewPrDet .sideBan, .fewPriv .sideBan, .fewLeg .sideBan {
+        background-size: 240px 234px;
+        background-repeat: no-repeat;
+    }
+    .sideBar div:last-of-type {
+        padding-top: 0px;
+    }
+    .sideBan {
+        padding: 50px 19px 19px;
+    }
+    .sns span {
+        padding: 0 0px 0 7px;
+    }
+    .eView{
+        display:block;
+    }
+    .terms_area p, .company_info {
+        text-align: center;
+    }
+    .sns a{
+        font-size:11px;
+    }
+    .fewGreet h2 {
+        font-size: 25px;
+    }
+    .fewGreet h5 {
+        font-size: 15px;
+    }
+    .gnb_wrap {
+        padding: 100px 20px 50px 20px;
+    }
+    .vecLoc1 .vecsub p {
+        font-size: 12px;
+    }
+    .locDet h1 {
+        font-size: 22px;
+    }
+    .fewGasses .sideBan p, .fewGasses1 .sideBan p, .fewGasses2 .sideBan p, .fewGasses3 .sideBan p, .fewGasses4 .sideBan p,.fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p {
+        padding-top: 105px;
+    }
+    .vectable thead tr th:first-child {
+        min-width: 117px;
+    }
+    .vectable thead tr th:nth-child(2) {
+        min-width: 60px;
+    }
+    .vectable thead tr th:nth-child(4) {
+        min-width: 90px;
+    }
+    .gases4 .vectable {
+        width: auto;
+    }
+    .sideBan p {
+        font-size: 12px;
+    }
+    .con2 .title h1 {
+        font-size: 33px;
+    }
+    .fewChe1 .sideBan p, .fewChe2 .sideBan p, .fewChe3 .sideBan p {
+        padding-top: 68px;
+    }
+    .sideBan p {
+        font-size: 11px;
+    }
+    .fewGasket .sideBan p {
+        padding-top: 77px;
+    }
+    .proConPara1 img, .proConPara4 img, .slideWholeWidth, .slideWidth{
+        width: 325px;
+        height: 201px;
+    }
+    .fewCoated .proCon1 .proConPara1, .fewCoated .proCon1 .proConPara4 {
+        width: 485px;
+    }
+    .fewFdt1 .sideBan p,.fewFdt2 .sideBan p {
+        padding-top: 96px;
+            font-size: 12px;
+    }
+    .fewFdt1 .proConPara1 img{
+        width: 363px;
+        height: auto;
+    }
+    .fewFdt1 .iconSec .flx p {
+        font-size: 11px;
+    }
+    .fdt980 .rtxt p {
+        font-size: 10px;
+    }
+    .fewFdt2 .novec2sub2 h6 {
+        font-family: 'NotoSansCJKkr-Light';
+        font-size: 12px;
+    }
+    .fewFdt1 .iconSec .flx div {
+        margin-right: 22px;
+    }
+    .fewAvs .sideBan p {
+        padding-top: 87px;
+    }
+     .notice .table th {
+        font-size: 19px;
+    }
+     .sideBan p{font-size:13px;}
+                   .fewAvs .sideBan p {
+    font-size: 10px;
+}
+.fewGasses3 .gases3 .vectable tbody tr:first-of-type td:nth-child(2), .gases4 .vectable tbody tr:first-of-type td:nth-child(2) {
+    min-width: 103px;
+}
+.fewGasses3 .gases3 .vectable tbody tr:first-of-type td:nth-child(3), .gases4 .vectable tbody tr:first-of-type td:nth-child(3) {
+    min-width: 106px;
+}
+
+.fewGasses4 .gases3 .vectable tbody tr:first-of-type td:nth-child(2), .gases4 .vectable tbody tr:first-of-type td:nth-child(2) {
+    min-width: 126px;
+}
+.fewGasses4 .gases3 .vectable tbody tr:first-of-type td:nth-child(3), .gases4 .vectable tbody tr:first-of-type td:nth-child(3) {
+    min-width: 77px;
+}
+.fewGasses .vectable thead tr th:nth-child(5) {
+    min-width: 110px;
+}
+.fewGasses .vectable thead tr th:nth-child(6) {
+    min-width: 60px;
+}
+.fewGasses1 .vectable thead tr th:nth-child(2) {
+    min-width: 131px;
+}
+.fewGasses1 .vectable thead tr th:nth-child(3) {
+    min-width: 88px;
+}
+.fewGasket .sideBan p {
+    font-size: 12px;
+}
+.fewBead1 .proCon1 .proConPara2 {
+    padding-left: 37px;
+}
+.private p, .private table td {
+    font-size: 12.6px;
+    line-height: 33px;
+}
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .fewBead1 .flxOnly{
+    display:block;
+}
+.fewBead1 .sliWid {
+    width: 280px;
+    height: 182px;
+}
+.fewBead1 .proCon1 .proConPara2 {
+    margin-top: 70px;
+}
+    .boardBtn div:last-of-type {
+    text-align: right;
+    margin-left: 10px;
+}
+    .fewLog .sideBar div:last-of-type {
+    padding-top: 50px;
+}
+    .fdt980 .rtxt {
+    width: auto;
+}
+         .fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p{
+      font-size:11px;
+    }
+
+    .fewRec2 .private p{
+	font-size: 12px;
+    }
+    .introBg .flx img {
+    width: 78%;
+    margin-left: 82px;
+}
+    .hlayer {
+    margin-top: 546px;
+    margin-left: 547px;
+    width: 60%;
+}
+
+.blayer {
+    margin-top: 216px;
+    margin-left: 412px;
+    width: 55%;
+}
+.s_gnb {
+    line-height: 3;
+    margin: 5px 10px;
+}
+        .gasketImg .flx div p, .gasketImg .Lflx div p {
+    font-size: 11px;
+    }
+    .full-width .con1 {
+        width: 220px;
+        padding-left: 0px;
+    }
+    .sideBar {
+        max-width: 220px;
+    }
+    .sideBan {
+        width: 240px;
+    }
+    .full-width .con2 {
+        width: 584px;
+        padding: 100px 20px;
+    }
+    .gnb_bg {
+        width: 220px;
+    }
+    .fewGreet .sideBan,.fewHis .sideBan,.fewLoc .sideBan,.fewGasses .sideBan,.fewGasses1 .sideBan,.fewGasses2 .sideBan,.fewGasses3 .sideBan,.fewGasses4 .sideBan,.fewChe1 .sideBan,.fewChe2 .sideBan,.fewChe3 .sideBan,
+    .fewGasket .sideBan,.fewBead1 .sideBan,.fewBead2 .sideBan,.fewBead3 .sideBan,.fewPig .sideBan,.fewCoated .sideBan,.fewFdt1 .sideBan,.fewFdt2 .sideBan,.fewAvs .sideBan,.fewChe1 .sideBan,.fewChe2 .sideBan,.fewChe3 .sideBan,
+    .fewRec1 .sideBan,.fewRec2 .sideBan,.fewRec1Det .sideBan,.fewLog .sideBan,.fewRec1Mas .sideBan,.fewRec1E .sideBan,.fewInq .sideBan,.fewNotEdit .sideBan,.fewNotMas .sideBan,.fewNotDet .sideBan,.fewNot .sideBan,.fewCatE .sideBan,
+    .fewCatMas .sideBan,.fewCat .sideBan,.fewMsds .sideBan,.fewPr .sideBan,.fewCatDet .sideBan,.fewMsdsDet .sideBan,.fewPrDet .sideBan, .fewPriv .sideBan, .fewLeg .sideBan {
+        background-size: 220px 234px;
+        background-repeat: no-repeat;
+    }
+    .sideBar div:last-of-type {
+        padding-top: 0px;
+    }
+    .sideBan {
+        padding: 50px 19px 19px;
+    }
+    .sns span {
+        padding: 0 0px 0 7px;
+    }
+    .eView{
+        display:block;
+    }
+    .terms_area p, .company_info {
+        text-align: center;
+    }
+    .sns a{
+        font-size:10px;
+    }
+    .fewGreet h2 {
+        font-size: 18px;
+    }
+    .fewGreet h5 {
+        font-size: 15px;
+    }
+    .gnb_wrap {
+        padding: 100px 15px 50px 15px;
+    }
+    .eViewN{
+        display:none;
+    }
+    .fewGreet h4 {
+        font-size: 17px;
+    }
+    .locDet h1 {
+        font-size: 17px;
+    }
+    .vecLoc1 .vecsub p {
+        font-size: 10px;
+    }
+    .vecLoc1 .vecsub p {
+        padding-left: 5px;
+    }
+    .locDet p {
+        padding-left: 10px;
+    }
+    .locDet p {
+        font-size: 10px;
+    }
+    .fewGasses .sideBan p, .fewGasses1 .sideBan p, .fewGasses2 .sideBan p, .fewGasses3 .sideBan p, .fewGasses4 .sideBan p,.fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p {
+        padding-top: 110px;
+    }
+    .vectable thead tr th:first-child {
+        min-width: 117px;
+    }
+    .vectable thead tr th:nth-child(2) {
+        min-width: 60px;
+    }
+    .vectable thead tr th:nth-child(4) {
+        min-width: 90px;
+    }
+    .gases4 .vectable {
+        width: auto;
+    }
+    .sideBan p {
+        font-size: 12px;
+    }
+    .con2 .title h1 {
+        font-size: 24px;
+    }
+    .proCon1 h5 {
+        font-size: 16px;
+    }
+    .proCon1 p {
+        font-size: 13px;
+    }
+    .fewChe1 .sideBan p, .fewChe2 .sideBan p, .fewChe3 .sideBan p {
+        padding-top: 68px;
+    }
+    .fewChe3 .proCon1 .proConPara2{
+        width: 571px;
+        padding-left: 40px;
+    }
+    .fewChe3 .proCon1 p {
+        font-size: 11px;
+    }
+    .fewChe3 .ewidth1 label {
+        width: 78px;
+    }
+    .fewChe3 .proCon1 .proConPara2 p span {
+        padding: 0px 27px
+    }
+    .fewGasket .title div:first-of-type h1 {
+        font-size: 28px;
+    }
+    .fewGasket .sideBan p {
+        font-size: 10px;
+    }
+    .fewGasket .sideBar ul li {
+        font-size: 13px;
+    }
+    .fewGasket .sideBan p {
+    }
+    .proConPara1 img, .proConPara4 img, .slideWholeWidth, .slideWidth{
+        width: 230px;
+        height: 142px;
+    }
+    .fewPig .proCon1 p {
+        font-size: 10px;
+    }
+    .fewPig .proCon1 h5 {
+        font-size: 14px;
+    }
+    .fewPig .flxSpaceBtn {
+        padding: 15px;
+    }
+    .fewCoated .proCon1 .proConPara1, .fewCoated .proCon1 .proConPara4 {
+        width: 485px;
+    }
+    .fewCoated .proCon1 p {
+        font-size: 10px;
+    }
+    /* .sliWid{
+        width: 230px;
+        height: 142px;
+    } */
+     .fewBead3 .sliWid{
+        width: 349px;
+        height: 197px;
+    }
+    .fewBead1 .proCon1 .proConPara2{
+        padding-left: 26px;
+    }
+    .fewBead1 .proCon1 h5,.fewBead2 .proCon1 h5,.fewBead3 .proCon1 h5 {
+        font-size: 13px;
+    }
+    .fewBead1 .proCon1 p,.fewBead2 .proCon1 p,.fewBead3 .proCon1 p,.bStrat .table td, .bStrat .table tr {
+        font-size: 11px;
+    }
+    .fewBead1 .proCon1 h5,.fewBead2 .proCon1 h5,.fewBead3 .proCon1 h5 {
+        padding-bottom: 10px;
+    }
+    .fewBead1 .proCon1 p,.fewBead2 .proCon1 p,.fewBead3 .proCon1 p {
+        padding-bottom: 25px;
+    }
+    .fewFdt1 .sideBan p,.fewFdt2 .sideBan p {
+        padding-top: 97px;
+        font-size: 11px;
+    }
+    .fewFdt1 .proConPara1 img{
+        width: 363px;
+        height: auto;
+    }
+    .fewFdt1 .iconSec .flx p {
+        font-size: 10px;
+    }
+    .fdt980 .rtxt p {
+        font-size: 10px;
+    }
+    .fewFdt2 .novec2sub2 h6 {
+        font-family: 'NotoSansCJKkr-Light';
+        font-size: 12px;
+    }
+    .fewFdt1 .iconSec .flx div {
+        margin-right: 3px;
+    }
+    .fewFdt1 .proCon1 .proConPara2,.fewFdt2 .proCon1 .proConPara2{
+        padding-left: 25px;
+    }
+    .fewFdt1 .proConPara2 p {
+        font-size: 10px;
+    }
+    .sliWidFdt2{
+        width:248px;height:341px;
+    }
+    .fewFdt2 .novec2sub1 p{
+        font-family: 'NotoSansCJKkr-Light';
+        font-size: 11px;
+    }
+    .fewAvs .sideBan p {
+        padding-top: 98px;
+    }
+    .notice .table th {
+        font-size: 19px;
+    }
+    .boardBtn div:last-of-type {
+    text-align: right;
+    margin-left: 10px;
+}
+.detailBtn div {
+    width: auto;
+}
+.fewMsdsDet .boardBtn, .fewPrDet .boardBtn, .fewCatDet .boardBtn {
+    display: flex;
+}
+ .sideBan p{font-size:13px;}
+               .fewAvs .sideBan p{
+    font-size: 9px;
+}
+.fewGasses .sideBan p,.fewGasses1 .sideBan p,.fewGasses2 .sideBan p,.fewGasses3 .sideBan p,.fewGasses4 .sideBan p {
+    font-size: 11px;
+}
+.hisRight h5 {
+	font-size: 11px;
+}
+
+.hisLeft h5 {
+	font-size: 11px;
+}
+.fewGasses3 .gases3 .vectable tbody tr:first-of-type td:nth-child(2), .gases4 .vectable tbody tr:first-of-type td:nth-child(2) {
+    min-width: 103px;
+}
+.fewGasses3 .gases3 .vectable tbody tr:first-of-type td:nth-child(3), .gases4 .vectable tbody tr:first-of-type td:nth-child(3) {
+    min-width: 106px;
+}
+
+.fewGasses4 .gases3 .vectable tbody tr:first-of-type td:nth-child(2), .gases4 .vectable tbody tr:first-of-type td:nth-child(2) {
+    min-width: 126px;
+}
+.fewGasses4 .gases3 .vectable tbody tr:first-of-type td:nth-child(3), .gases4 .vectable tbody tr:first-of-type td:nth-child(3) {
+    min-width: 77px;
+}
+.fewGasses .vectable thead tr th:nth-child(5) {
+    min-width: 110px;
+}
+.fewGasses .vectable thead tr th:nth-child(6) {
+    min-width: 60px;
+}
+.fewGasses1 .vectable thead tr th:nth-child(2) {
+    min-width: 131px;
+}
+.fewGasses1 .vectable thead tr th:nth-child(3) {
+    min-width: 88px;
+}
+.fewGasses .proBtn div,.fewGasses1 .proBtn div{
+    margin-left: 180px;
+    width: 110px;
+}
+.fewGasses1 .proConPara h6 {
+    width: 532px;
+    margin-left: 180px;
+}
+.fewGasses2 .proBtn div{
+    margin-left: 192px;
+    width: 110px;
+}
+.fewGasses3 .proBtn div{
+        margin-left: 170px;
+    width: 110px;
+}
+.fewGasses4 .proBtn div{
+          margin-left: 164px;
+    width: 110px;
+}
+.catList a {
+	font-size: 12px;
+}
+.fewGasket .sideBan p {
+    padding-top: 84px;
+}
+.fewBead1 .bStrat .table td:first-child {
+    width: 90px;
+}
+.fewBead1 .proCon1 .proConPara2 {
+    padding-left: 26px;
+}
+.fewAvs .encoatTable td {
+    padding: 10px 20px;
+}
+.private p, .private table td {
+    font-size: 12px;
+    line-height: 33px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .introBg .flx img {
+    width: 78%;
+    margin-left: 82px;
+}
+.hlayer {
+    margin-top: 546px;
+    margin-left: 547px;
+    width: 60%;
+}
+
+.blayer {
+    margin-top: 216px;
+    margin-left: 412px;
+    width: 55%;
+}
+    .full-width .con1 {
+        width: 200px;
+        padding-left: 0px;
+    }
+    .sideBar {
+        max-width: 200px;
+    }
+    .sideBan {
+        width: 240px;
+    }
+    .full-width .con2 {
+        width: 368px;
+        padding: 100px 10px;
+    }
+    .gnb_bg {
+        width: 200px;
+    }
+    .fewGreet .sideBan {
+        background-size: 200px 234px;
+        background-repeat: no-repeat;
+    }
+    .sideBar div:last-of-type {
+        padding-top: 0px;
+    }
+}
+@media only screen and (min-width:0\0) and (min-width: 1440px) and (max-width: 1599px) {
+	.pigmentsub1 img{
+		max-width: 800px;
+	}
+	.novec2sub div:nth-child(2) div:first-child img{
+	padding-right: 45px;
+	height: 356px;
+}
+.fewFdt2 .imgWid1{
+	max-width: 455px;
+}
+.novecimg div img{
+	max-width: 85%;
+	padding-right: 9px;
+}
+}
+@media only screen and (min-width:0\0) and (max-width: 1439px) and (min-width: 1366px) {
+	.pigmentsub1 img{
+		max-width: 790px;
+	}
+	.gasketImg .flx div:nth-child(3){
+	max-width: 256px;
+    }
+    .novec2sub div:nth-child(2) div:first-child img{
+	padding-right: 45px;
+	height: 345px;
+}
+.fewFdt2 .imgWid1{
+	max-width: 440px;
+}
+.novecimg div img{
+	max-width: 82%;
+	padding-right: 6px;
+}
+.fewChe3 .proCon1 h5 {
+    font-size: 11px;
+}
+}
+@media only screen and (min-width:0\0) and (min-width: 1280px) and (max-width: 1365px) {
+	.pigmentsub1 img{
+		max-width: 740px;
+	}
+	.gasketImg .flx div:nth-child(3){
+	max-width: 255px;
+    }
+    .novec2sub div:nth-child(2) div:first-child img{
+	padding-right: 45px;
+	height: 333px;
+}
+.fewFdt2 .imgWid1{
+	max-width: 425px;
+}
+.novecimg div img{
+	max-width: 70%;
+	padding-right: 0px;
+}
+}
+@media only screen and (min-width:0\0) and (min-width: 1024px) and (max-width: 1279px) {
+	.pigmentsub1 img{
+		max-width: 540px;
+	}
+	.gasketImg .flx div:nth-child(3){
+	max-width: 230px;
+    }
+    .novec2sub div:nth-child(2) div:first-child img{
+	padding-right: 45px;
+	height: 235px;
+}
+.fewFdt2 .imgWid1 {
+	max-width: 300px;
+}
+.novecimg div img{
+	max-width: 75%;
+	padding-right: 0px;
+	margin-right: -55px;
+}
+}
+/* Fixing layout problem-End   */
+/*425 view*/
+@media (min-width: 320px) and (max-width: 425px) {
+    .wView {
+        display:none;
+    }
+    .mView {
+        display:block;
+    }
+    .notice .table td {
+        vertical-align: middle;
+    }
+    .bWrite p {
+        font-size: 15px;
+    }
+    .boardWrite div {
+        margin-bottom: 20px;
+    }
+    .fewRec1Det .test1 .stars h5 {
+        margin-bottom: 0;
+    }
+    .fewAvs .sideBan p {
+        padding-top: 122px;
+    }
+    .fewFdt1 .sideBan p, .fewFdt2 .sideBan p {
+        padding-top: 140px;
+    }
+    .fewGasses4 .sideBan p, .fewGasses3 .sideBan p, .fewGasses2 .sideBan p,.fewGasses1 .sideBan p,.fewGasses .sideBan p {
+        padding-top: 139px;
+    }
+    .proCon1 p br {
+        display: none;
+    }
+    .bSize .bor1 .flx.attach div:last-child {
+        padding: 19px 11px 17px;
+    }
+    .fewCatDet iframe, .fewPrDet iframe, .fewMsdsDet iframe {
+        width: 359px;
+        height: 350px;
+    }
+    .introBg .flx img {
+        position: absolute;
+        left: 0px;
+        transform: translate(11%,-72%);
+        width: 85%;
+        box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.3);
+        -webkit-box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.3);
+    }
+    .introBg {
+        background: url(../images/mintrobg2.jpg);
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .inx1 {
+        width: 90vh;
+        padding-top: 30px;
+    }
+    .introBg .introLogo {
+        padding: 20px;
+    }
+    .introBg .introLogo img {
+        width: 115px;
+    }
+    .introBg .flx {
+        height: 850px;
+    }
+    .full-width {
+        display: block;
+    }
+    .full-width .con1 {
+        width: auto;
+        padding-left: 0px;
+    }
+    .sideBar {
+        max-width: unset;
+        height: 320px;
+        position: unset;
+    }
+    .sideBan {
+        width: auto;
+        height: 320px;
+    }
+    .fewGreet .sideBan {
+        background: url(../images/mgreet.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .full-width .con2 {
+        width: auto;
+        padding: 50px 15px;
+    }
+    .sideBar div:last-of-type {
+        padding-top: 0px;
+        text-align: center;
+    }
+    .vsub-menu1 li, .vsub-menu li {
+        border-left: 1px solid #eeeeee;
+        border-right: 1px solid #eeeeee;
+    }
+    .vecsafety ul.vsub-menu1 li a {
+        color: #7d7d7d;
+    }
+    .vsub {
+        border-top: 1px solid #eeeeee;
+    }
+    .vsub:after {
+        border-bottom-color: #eeeeee;
+    }
+    .vsub-menu1 {
+        top: 26px;
+    }
+    .sideBan h1 {
+        font-size: 19px;
+    }
+    .sideBan p {
+        font-size: 13px;
+        padding-top: 154px;
+    }
+    .fewGasket .sideBan p {
+        padding-top: 121px;
+    }
+    .fewChe1 .sideBan p, .fewChe2 .sideBan p, .fewChe3 .sideBan p {
+        padding-top: 122px;
+    }
+    .con2 .title h1, .fewGasket .title div:first-of-type h1 {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+    .con2 .banner {
+        padding: 30px 0px;
+    }
+    .fewGreet h2 {
+        font-size: 16px;
+        line-height:1.5;
+    }
+    .fewGreet h5{
+        text-align: center;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .fewGreet br {
+        display:none;
+    }
+    .fewGreet h3 span {
+        font-size:13px;
+        line-height: 1;
+    }
+    .fewGreet h4 {
+        font-size: 14px;
+    }
+    .fewHis .sideBan {
+        background: url(../images/mhis.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .fewLoc .sideBan{
+        background: url(../images/mloc.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .fewGasses .sideBan, .fewGasses1 .sideBan, .fewGasses2 .sideBan, .fewGasses3 .sideBan, .fewGasses4 .sideBan {
+        background: url(../images/mvector_1.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .proCon1 h5 {
+        font-size: 16px;
+        padding-bottom: 10px;
+        line-height: 1.3;
+    }
+    .proCon1 p {
+        padding-bottom: 15px;
+    }
+    .fewGasses .proCon1, .fewGasses1 .proCon1, .fewGasses2 .proCon1, .fewGasses3 .proCon1, .fewGasses4 .proCon1 {
+        padding: 35px 0px 1px 18px;
+    }
+    .pane-vScroll {
+        overflow-y: auto;
+        white-space: nowrap;
+    }
+    .vectable table {
+        margin-bottom: 25px;
+    }
+    .vecsafety a {
+        padding: 5px 0px 5px 7px;
+    }
+    .gases4 .vectable {
+        width: unset;
+    }
+    .fewChe1 .sideBan, .fewChe2 .sideBan, .fewChe3 .sideBan {
+        background: url(../images/mvector_2.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .flxOnly {
+        display: block;
+    }
+    .fewChe1 .proCon1, .fewChe2 .proCon1, .fewChe3 .proCon1 {
+        padding-top: 30px;
+    }
+    .fewChe1 .proCon1 .proConPara1, .fewChe2 .proCon1 .proConPara1, .fewChe3 .proCon1 .proConPara1, .fewAvs .proCon1 .proConPara1, .fewFdt1 .proCon1 .proConPara1, .fewFdt2 .proCon1 .proConPara1, .fewBead1 .proCon1 .proConPara1, .fewBead2 .proCon1 .proConPara1, .fewBead3 .proCon1 .proConPara1 {
+        margin: 0 auto;
+    }
+    .fewChe1 .proCon1 .proConPara2, .fewChe2 .proCon1 .proConPara2, .fewChe3 .proCon1 .proConPara2, .fewAvs .proCon1 .proConPara2, .fewFdt1 .proCon1 .proConPara2, .fewFdt2 .proCon1 .proConPara2, .fewBead1 .proCon1 .proConPara2, .fewBead2 .proCon1 .proConPara2, .fewBead3 .proCon1 .proConPara2 {
+        width: auto;
+        padding-left: 43px;
+        padding-top: 20px;
+    }
+    .fewChe3 .ewidth1 label {
+        width: 99px;
+    }
+    .fewChe3 .proCon1 .proConPara2 p span {
+        padding: 0px 11px;
+    }
+    .ewidth3 label {
+        width: 198px;
+    }
+    .fewChe3 .padBot100 {
+        padding-bottom: 25px;
+    }
+    .fewChe3 .proCon1 .proConPara2 {
+        padding-bottom: 25px;
+    }
+    .fewChe3 .proCon1 p {
+        padding-left: 0px;
+    }
+    .fewGasket .sideBan {
+        background: url(../images/mvector_3.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .gasketImg .flx , .gasketImg .Lflx{
+        display: block;
+    }
+    .gasketImg .flx div, .gasketImg .Lflx div {
+        margin-right: 0px;
+        width: auto;
+        text-align: center;
+    }
+    .fewBead1 .sideBan, .fewBead2 .sideBan, .fewBead3 .sideBan, .fewCoated .sideBan, .fewPig .sideBan {
+        background: url(../images/mvector_4.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .bStrat .table td:first-child {
+        float: left;
+    }
+    .bStrat .table td:last-child {
+        float: left;
+        width: 100%;
+    }
+    .selGuide {
+        padding: 0px 0px 25px;
+    }
+    .selGuideImg {
+        padding: 25px 0 0px 0px;
+    }
+    .fewBead1 .vsub-menu1, .fewBead2 .vsub-menu1,.fewBead3 .vsub-menu1,.fewPig .vsub-menu1,
+    .fewCoated .vsub-menu1 {
+        width: 150px;
+    }
+    .fewGreet .vsub-menu1,.fewHis .vsub-menu1,.fewLoc .vsub-menu1 {
+        width: 136px;
+    }
+    .fewChe1 .vsub-menu1,.fewChe2 .vsub-menu1,.fewChe3 .vsub-menu1 {
+        width: 125px;
+    }
+    .fewFdt1 .vsub-menu1, .fewFdt2 .vsub-menu1 {
+        width:245px;
+    }
+    .fewFdt1 .vsub:after, .fewFdt2 .vsub:after {
+        left: 54%;
+    }
+    .fewGreet .vsub:after, .fewHis .vsub:after, .fewLoc .vsub:after {
+        left: 59%;
+    }
+    .fewChe1 .vsub:after, .fewChe2 .vsub:after, .fewChe3 .vsub:after,
+    .fewBead1 .vsub:after, .fewBead2 .vsub:after,.fewBead3 .vsub:after,
+    .fewPig .vsub:after,.fewCoated .vsub:after {
+        left: 58%;
+    }
+    .fewPig .flxSpaceBtn {
+        display: block;
+        padding:0px;
+    }
+    .fewPig .proCon1 .proConPara1, .fewPig .proCon1 .proConPara4 {
+        width: auto;
+    }
+    .fewPig .proCon1 .proConPara2, .fewPig .proCon1 .proConPara3, .fewCoated .proCon1 .proConPara2, .fewCoated .proCon1 .proConPara3 {
+        width: auto;
+        padding: 25px;
+    }
+    .fewPig .flxSpaceBtn.txt2 , .fewPig .flxSpaceBtn.txt4{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .pigmentsub1.padTop50 {
+        padding-top: 5px;
+    }
+    .pigmentsub2 .mBtm100 {
+        margin-bottom: 40px;
+    }
+    .fewpig .proCon1.padBot50 {
+        padding-bottom:0px;
+    }
+    .pigmentsub2 .mBtm50 {
+        margin-bottom: 0px;
+    }
+    .fewCoated .flxSpaceBtn {
+        display: block;
+    }
+    .fewCoated .flxSpaceBtn:last-child {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fewPig .proCon1 .proConPara4 div:first-of-type, .fewCoated .proCon1 .proConPara4 div:first-of-type {
+        float: unset;
+        text-align: center;
+    }
+    .fewCoated .proCon1 .proConPara1, .fewCoated .proCon1 .proConPara4 {
+        width: auto;
+        text-align: center;
+    }
+    .fewCoated .flxSpaceBtn, .fewCoated .padBot50 {
+        padding-bottom: 0px;
+    }
+    .fewFdt1 .sideBan, .fewFdt2 .sideBan{
+        background: url(../images/mvector_5.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .fewFdt1 .proConPara2 p {
+        line-height: 1.5;
+    }
+    .flx {
+        display: block;
+    }
+    .fewFdt1 .iconSec .flx div, .fewFdt1 .iconSec .flx div:last-of-type {
+        margin: 0 auto;
+        height: 200px;
+    }
+    .fewFdt1 .iconSec .flx div:nth-child(3) {
+        height: 252px;
+    }
+    .fewFdt1 table {
+        width: 600px;
+    }
+    .fewFdt1 .fdt980 .rtxt {
+        width: auto;
+    }
+    .fewFdt1 .fdt980 .rtxt p {
+        margin-left: 0px;
+        text-align: left;
+    }
+    .novec2sub div:nth-child(2) div:first-child img {
+        padding-right: 0px;
+        padding-bottom: 40px;
+    }
+    .novec2sub > div:nth-child(2) {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .novecimg {
+        display: block;
+    }
+    .novecimg div{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .fewFdt2 .novec2sub2 table {
+        width: 700px;
+    }
+    .fewAvs .padBot50{
+        padding-bottom: 20px;
+    }
+    .fewAvs .sideBan {
+        background: url(../images/mshutter.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .fewInq .sideBan, .fewRec2 .sideBan, .fewRec1 .sideBan, .fewRec1Mas .sideBan,
+     .fewRec1Det .sideBan, .fewRec1E .sideBan {
+        background: url(../images/mrecruitIcon.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .fewRec2 .con2 .banner {
+        padding: 30px 0px 0px;
+    }
+    .fewLog .vecGreet {
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .loginBox {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bSize .bor1 .flx div {
+        width: 111px;
+    }
+    .bSize .bor1 .flx {
+        display: inline-flex;
+    }
+    .bSize .bor1 .flx div p {
+        font-size: 14px;
+    }
+    .bSize .bor1 .flx div:last-child {
+        width: 281px;
+        padding: 17px 0px 17px 11px;
+    }
+    .bSize .contact [type=text] {
+        width: 69px;
+    }
+    .bSize .name [type=text], .bSize .addr [type=text], .fewInq input[type="text"] {
+        width: 100%;
+    }
+    .fewPr .sideBan, .fewPrDet .sideBan {
+        background: url(../images/mprRoom.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .fewPr .full-width .con2, .fewMsds .full-width .con2 {
+        padding: 50px;
+    }
+    .fewPr .full-width .con2, .fewMsds .full-width .con2 {
+        padding: 50px 15px;
+    }
+    .catList {
+        display: block;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .catList div img {
+        height: 180px;
+    }
+    .fewPr .catList div, .fewMsds .catList div, .fewCat .catList div {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .boardBtn .bFiv {
+        padding: 6.5px 16px;
+    }
+    .linkSty {
+        font-size: 10pt !important;
+    }
+    .test1 h3 {
+        font-size: 17px;
+    }
+    .detailBtn .bFor {
+        line-height: 1.7;
+    }
+    .boardBtn .bFor {
+        padding: 6.5px 19px;
+        height: 35px;
+    }
+    .boardBtn .bSix {
+        padding: 6.5px 9px;
+    }
+    .detailBtn div:first-of-type {
+        width: 20%;
+        margin-top: 0px;
+    }
+    .boardBtn div:last-of-type {
+        text-align: right;
+        margin-top: 0px;
+    }
+    .detailBtn div:last-of-type {
+        width: 80%;
+    }
+    .fewCatMas .sideBan, .fewCatE .sideBan {
+        background: url(../images/mprRoom.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .lft19 {
+        padding-left: 0;
+    }
+    .fewCatMas .bWrite {
+        padding: 30px 15px;
+    }
+    .fewCatE .bWrite, .fewRec1Mas .bWrite, .fewRec1E .bWrite {
+        padding: 30px 0;
+    }
+    .fewCatMas .content {
+        margin-left: 0px;
+        padding: 0;
+    }
+    .boardWrite div {
+        display: block;
+    }
+    .boardWrite #cke_editor {
+        margin-left: 0px;
+    }
+    .category .boardBtn .bSix, .category .boardBtn .bFor {
+        line-height: 1.4;
+    }
+    .fewMsds .sideBan, .fewCat .sideBan, .fewCatDet .sideBan, .fewMsdsDet .sideBan, .catsideBg, .msdssideBg {
+        background: url(../images/mcatalogue.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .fewNot .sideBan, .fewNotDet .sideBan, .fewNotEdit .sideBan,
+    .fewNotMas .sideBan, .fewLog .sideBan, .fewPriv .sideBan, .fewLog .sideBan {
+        background: url(../images/mnotice.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+    }
+    .test1 .maz h4 {
+        padding: 0;
+    }
+    .test1 .stars h5 {
+        font-size: 14px;
+    }
+    .searchBtn {
+        float: unset;
+    }
+    .notice .table {
+        margin-bottom: 0px;
+    }
+    .notice .table td {
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+    .fewNot .table th, .fewRec1 .table th {
+        padding: 5px 0 0px;
+        font-size: 16px;
+    }
+    .notice .table th span {
+        margin-left: 0px;
+        height: 30px;
+    }
+    .searchBtn button {
+        position: relative;
+        right: -244px;
+        top: -16px;
+    }
+    .fewNotDet .boardBtn {
+        display: flex;
+    }
+    .fewNotDet .boardBtn div:last-of-type {
+        width: 80%;
+    }
+    .fewNotMas .bWrite, .fewNotEdit .bWrite {
+        padding: 30px 0;
+    }
+    .boardWrite input {
+        width: 100%;
+    }
+    .sbutton1 > a img {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .fewRec1 .sideBan, .fewRec1Mas .sideBan, .fewRec1E .sideBan {
+        background: url(../images/mquote.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    .sbutton1 > a img , .fewNotMas .sbutton1 a img{
+        padding-top: 4px;
+    }
+    .fewRec1 .sbutton1 a, .fewNot .sbutton1 a, .fewNotDet .sbutton1 a, .fewNotEdit .sbutton1 a,
+    .fewNotMas .sbutton1 a, .fewLog .sbutton1 a, .fewPriv .sbutton1 a, .fewLog .sbutton1 a {
+        color:#fff;
+    }
+    .fewNot .sbutton1 a img, .fewNotDet .sbutton1 a img, .fewNotEdit .sbutton1 a img,
+     .fewLog .sbutton1 a img, .fewPriv .sbutton1 a img, .fewLog .sbutton1 a img,
+    .fewMsds .sbutton1 a img, .fewCat .sbutton1 a img, .fewCatDet .sbutton1 a img, .fewMsdsDet .sbutton1 a img,
+     .catsideBg .sbutton1 a img, .msdssideBg .sbutton1 a img, .fewPr .sbutton1 a img, .fewRec1 .sbutton1 a img{
+        padding-top: 2px;
+    }
+    .fewGreet .flx, .fewInq .flx {
+        display: flex;
+    }
+    .fewFdt1 .iconSec .flx div {
+        width: 235px;
+    }
+    .fdt980 h5 {
+        line-height: 1.2;
+    }
+    .fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p {
+    padding-top: 151px;
+    }
+    .private p, .private table td {
+        line-height: 27px;
+        font-size: 13px;
+    }
+    .private p, .private table td {
+        line-height: 30px;
+    }
+    .private p br {
+        display:none;
+    }
+    .fewLeg .sideBan {
+        background: url(../images/mnotice.jpg);
+    }
+    .fewLeg .vsub-menu1 {
+        width: 117px;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 359px) {
+    .sideBar, .sideBan {
+        height: 242px;
+    }
+    .sideBan {
+        padding: 65px 19px 19px;
+    }
+    .fewGasses4 .sideBan p, .fewGasses3 .sideBan p, .fewGasses2 .sideBan p, .fewGasses1 .sideBan p, .fewGasses .sideBan p {
+        padding-top: 96px;
+    }
+    .con2 .title h1, .fewGasket .title div:first-of-type h1 {
+        font-size: 17px;
+    }
+    .sideBan h1 {
+        font-size: 17px;
+    }
+    .fewGreet h2 {
+        font-size: 15px;
+        padding:20px 0px;
+    }
+    .sideBan p {
+        font-size: 12px;
+        padding-top: 111px;
+    }
+    .fewFdt1 .sideBan p, .fewFdt2 .sideBan p {
+        padding-top: 95px;
+    }
+    .proCon1 h5 {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .fewGasses .proCon1, .fewGasses1 .proCon1, .fewGasses2 .proCon1, .fewGasses3 .proCon1, .fewGasses4 .proCon1 {
+        padding: 20px 0px 1px 18px;
+    }
+    .proCon1 p {
+        font-size: 12px;
+    }
+    .proConPara h6 {
+        font-size: 12px;
+    }
+    .fewChe1 .sideBan p, .fewChe2 .sideBan p, .fewChe3 .sideBan p {
+        padding-top: 83px;
+    }
+    .fewChe1 .proCon1 .proConPara1, .fewChe2 .proCon1 .proConPara1, .fewChe3 .proCon1 .proConPara1, .fewAvs .proCon1 .proConPara1, .fewFdt1 .proCon1 .proConPara1, .fewFdt2 .proCon1 .proConPara1, .fewBead1 .proCon1 .proConPara1, .fewBead2 .proCon1 .proConPara1, .fewBead3 .proCon1 .proConPara1 {
+        width: auto;
+    }
+    .fewChe1 .proCon1 .proConPara2, .fewChe2 .proCon1 .proConPara2, .fewChe3 .proCon1 .proConPara2, .fewAvs .proCon1 .proConPara2, .fewFdt1 .proCon1 .proConPara2, .fewFdt2 .proCon1 .proConPara2, .fewBead1 .proCon1 .proConPara2, .fewBead2 .proCon1 .proConPara2, .fewBead3 .proCon1 .proConPara2 {
+        padding-left: 19px;
+    }
+    .fewChe3 .proCon1 p {
+        font-size: 12px;
+    }
+    .fewChe3 .ewidth2 label {
+        width: 145px;
+    }
+    .ewidth3 label {
+        width: 120px;
+    }
+    .fewChe3 .ewidth4 label {
+        width: 144px;
+    }
+    .fewGasket .sideBan p {
+        padding-top: 81px;
+    }
+    .fewChe1 .proCon1, .fewChe2 .proCon1, .fewChe3 .proCon1, .fewAvs .proCon1, .fewFdt1 .proCon1, .fewFdt2 .proCon1, .fewBead1 .proCon1, .fewBead2 .proCon1, .fewBead3 .proCon1, .fewCoated .proCon1, .fewPig .proCon1 {
+        padding-top: 20px;
+    }
+    .fewAvs .sideBan p {
+        padding-top: 83px;
+    }
+     .bSize .bor1 .flx div:last-child {
+        width: 178px;
+    }
+    .bSize .contact [type=text] {
+        width: 46px;
+    }
+    .bSize .contact span {
+        padding: 0 0 0 4px;
+    }
+    .fewInq .send [type=submit], .fewRec2 .send [type=submit] {
+        padding: 25px 60px;
+    }
+    .fewInq .vecGreet h1 {
+        font-size: 25px;
+    }
+    .boardBtn .bFor {
+        padding: 5px 12px;
+        height: 32px;
+    }
+    .boardBtn .bSix {
+        padding: 5px 5px;
+    }
+    .boardBtn .bFiv {
+        padding: 5px 8px;
+    }
+    .linkSty {
+        font-size: 9pt !important;
+    }
+    .vecDetail {
+        margin-bottom: 35px;
+    }
+    .test1 .maz h4 {
+        font-size: 12px;
+    }
+    .test1 h3 {
+        font-size: 15px;
+    }
+    .maz2 {
+        width: 114px;
+    }
+    .maz p {
+        font-size: 12px;
+    }
+    .fewCatDet iframe, .fewPrDet iframe, .fewMsdsDet iframe {
+        width: 257px;
+        height: 194px;
+    }
+    .fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p {
+    padding-top: 109px;
+    }
+    .introBg .flx img {
+        transform: translate(11%,-134%);
+    }
+}
+@media (min-width: 360px) and (max-width: 374px) {
+    .sideBar, .sideBan {
+        height: 271px;
+    }
+    .sideBan {
+        padding: 65px 19px 19px;
+    }
+    .con2 .title h1, .fewGasket .title div:first-of-type h1 {
+        font-size: 17px;
+    }
+    .sideBan h1 {
+        font-size: 17px;
+    }
+    .fewGreet h2 {
+        font-size: 15px;
+        padding:20px 0px;
+    }
+    .fewGasses4 .sideBan p, .fewGasses3 .sideBan p, .fewGasses2 .sideBan p,.fewGasses1 .sideBan p,.fewGasses .sideBan p {
+        padding-top: 126px;
+    }
+    .fewFdt1 .sideBan p, .fewFdt2 .sideBan p {
+        padding-top: 126px;
+    }
+    .fewAvs .sideBan p {
+        padding-top: 110px;
+    }
+    .sideBan p {
+        font-size: 12px;
+        padding-top: 140px;
+    }
+    .proCon1 h5 {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .fewGasses .proCon1, .fewGasses1 .proCon1, .fewGasses2 .proCon1, .fewGasses3 .proCon1, .fewGasses4 .proCon1 {
+        padding: 20px 0px 1px 18px;
+    }
+    .proCon1 p {
+        font-size: 12px;
+    }
+    .proConPara h6 {
+        font-size: 12px;
+    }
+    .fewChe1 .sideBan p, .fewChe2 .sideBan p, .fewChe3 .sideBan p {
+        padding-top: 109px;
+    }
+    .fewChe1 .proCon1 .proConPara1, .fewChe2 .proCon1 .proConPara1, .fewChe3 .proCon1 .proConPara1, .fewAvs .proCon1 .proConPara1, .fewFdt1 .proCon1 .proConPara1, .fewFdt2 .proCon1 .proConPara1, .fewBead1 .proCon1 .proConPara1, .fewBead2 .proCon1 .proConPara1, .fewBead3 .proCon1 .proConPara1 {
+        width: auto;
+    }
+    .fewChe1 .proCon1 .proConPara2, .fewChe2 .proCon1 .proConPara2, .fewChe3 .proCon1 .proConPara2, .fewAvs .proCon1 .proConPara2, .fewFdt1 .proCon1 .proConPara2, .fewFdt2 .proCon1 .proConPara2, .fewBead1 .proCon1 .proConPara2, .fewBead2 .proCon1 .proConPara2, .fewBead3 .proCon1 .proConPara2 {
+        padding-left: 19px;
+    }
+    .fewChe3 .proCon1 p {
+        font-size: 12px;
+    }
+    .fewChe3 .ewidth2 label {
+        width: 145px;
+    }
+    .ewidth3 label {
+        width: 120px;
+    }
+    .fewChe3 .ewidth4 label {
+        width: 144px;
+    }
+    .fewGasket .sideBan p {
+        padding-top: 111px;
+    }
+    .fewChe1 .proCon1, .fewChe2 .proCon1, .fewChe3 .proCon1, .fewAvs .proCon1, .fewFdt1 .proCon1, .fewFdt2 .proCon1, .fewBead1 .proCon1, .fewBead2 .proCon1, .fewBead3 .proCon1, .fewCoated .proCon1, .fewPig .proCon1 {
+        padding-top: 20px;
+    }
+     .bSize .bor1 .flx div:last-child {
+        width: 218px;
+    }
+    .bSize .contact [type=text] {
+        width: 49px;
+    }
+    .fewInq .send [type=submit], .fewRec2 .send [type=submit] {
+        padding: 25px 60px;
+    }
+    .fewInq .vecGreet h1 {
+        font-size: 25px;
+    }
+    .fewCatDet iframe, .fewPrDet iframe, .fewMsdsDet iframe {
+        width: 296px;
+        height: 216px;
+    }
+    .fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p {
+    padding-top: 137px;
+    }
+    .introBg .flx img {
+    transform: translate(11%,-106%);
+    }
+    .private p, .private table td {
+        line-height: 27px;
+        font-size: 13px;
+    }
+}
+@media (min-width: 375px) and (max-width: 399px) {
+    .sideBar, .sideBan {
+        height: 283px;
+    }
+    .sideBan {
+        padding: 65px 19px 19px;
+    }
+    .con2 .title h1, .fewGasket .title div:first-of-type h1 {
+        font-size: 18px;
+    }
+    .sideBan h1 {
+        font-size: 18px;
+    }
+    .fewGreet h2 {
+        font-size: 16px;
+        padding:20px 0px;
+    }
+    .fewGasses4 .sideBan p, .fewGasses3 .sideBan p, .fewGasses2 .sideBan p,.fewGasses1 .sideBan p,.fewGasses .sideBan p {
+        padding-top: 133px;
+    }
+    .fewFdt1 .sideBan p, .fewFdt2 .sideBan p {
+        padding-top: 132px;
+    }
+    .fewAvs .sideBan p {
+        padding-top: 117px;
+    }
+    .sideBan p {
+        font-size: 13px;
+        padding-top: 150px;
+    }
+    .proCon1 h5 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .fewGasses .proCon1, .fewGasses1 .proCon1, .fewGasses2 .proCon1, .fewGasses3 .proCon1, .fewGasses4 .proCon1 {
+        padding: 20px 0px 1px 18px;
+    }
+    .proCon1 p {
+        font-size: 13px;
+    }
+    .proConPara h6 {
+        font-size: 13px;
+    }
+    .fewChe1 .sideBan p, .fewChe2 .sideBan p, .fewChe3 .sideBan p {
+        padding-top: 117px;
+    }
+    .fewChe1 .proCon1 .proConPara1, .fewChe2 .proCon1 .proConPara1, .fewChe3 .proCon1 .proConPara1, .fewAvs .proCon1 .proConPara1, .fewFdt1 .proCon1 .proConPara1, .fewFdt2 .proCon1 .proConPara1, .fewBead1 .proCon1 .proConPara1, .fewBead2 .proCon1 .proConPara1, .fewBead3 .proCon1 .proConPara1 {
+        width: auto;
+    }
+    .fewChe1 .proCon1 .proConPara2, .fewChe2 .proCon1 .proConPara2, .fewChe3 .proCon1 .proConPara2, .fewAvs .proCon1 .proConPara2, .fewFdt1 .proCon1 .proConPara2, .fewFdt2 .proCon1 .proConPara2, .fewBead1 .proCon1 .proConPara2, .fewBead2 .proCon1 .proConPara2, .fewBead3 .proCon1 .proConPara2 {
+        padding-left: 19px;
+    }
+    .fewChe3 .proCon1 p {
+        font-size: 13px;
+    }
+    .fewChe3 .ewidth2 label {
+        width: 145px;
+    }
+    .ewidth3 label {
+        width: 120px;
+    }
+    .fewChe3 .ewidth4 label {
+        width: 144px;
+    }
+    .fewGasket .sideBan p {
+        padding-top: 118px;
+    }
+    .fewChe1 .proCon1, .fewChe2 .proCon1, .fewChe3 .proCon1, .fewAvs .proCon1, .fewFdt1 .proCon1, .fewFdt2 .proCon1, .fewBead1 .proCon1, .fewBead2 .proCon1, .fewBead3 .proCon1, .fewCoated .proCon1, .fewPig .proCon1 {
+        padding-top: 20px;
+    }
+    .bSize .bor1 .flx div:last-child {
+        width: 233px;
+    }
+    .bSize .contact [type=text] {
+        width: 52px;
+    }
+    .fewInq .send [type=submit], .fewRec2 .send [type=submit] {
+        padding: 25px 60px;
+    }
+    .fewInq .vecGreet h1 {
+        font-size: 25px;
+    }
+    .fewCatDet iframe, .fewPrDet iframe, .fewMsdsDet iframe {
+        width: 312px;
+        height: 216px;
+    }
+    .introBg .flx img {
+    transform: translate(11%,-97%);
+    }
+}
+@media (min-width: 400px) and (max-width: 413px) {
+    .sideBar, .sideBan {
+        height: 302px;
+    }
+    .sideBan {
+        padding: 65px 19px 19px;
+    }
+    .con2 .title h1, .fewGasket .title div:first-of-type h1 {
+        font-size: 18px;
+    }
+    .sideBan h1 {
+        font-size: 18px;
+    }
+    .fewGreet h2 {
+        font-size: 16px;
+        padding:20px 0px;
+    }
+    .fewGasses4 .sideBan p, .fewGasses3 .sideBan p, .fewGasses2 .sideBan p,.fewGasses1 .sideBan p,.fewGasses .sideBan p {
+        padding-top: 150px;
+    }
+    .fewFdt1 .sideBan p, .fewFdt2 .sideBan p {
+        padding-top: 154px;
+    }
+    .fewAvs .sideBan p {
+        padding-top: 135px;
+    }
+    .sideBan p {
+        font-size: 13px;
+        padding-top: 169px;
+    }
+    .proCon1 h5 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .fewGasses .proCon1, .fewGasses1 .proCon1, .fewGasses2 .proCon1, .fewGasses3 .proCon1, .fewGasses4 .proCon1 {
+        padding: 20px 0px 1px 18px;
+    }
+    .proCon1 p {
+        font-size: 13px;
+    }
+    .proConPara h6 {
+        font-size: 13px;
+    }
+    .fewChe1 .sideBan p, .fewChe2 .sideBan p, .fewChe3 .sideBan p {
+        padding-top: 136px;
+    }
+    .fewChe1 .proCon1 .proConPara1, .fewChe2 .proCon1 .proConPara1, .fewChe3 .proCon1 .proConPara1, .fewAvs .proCon1 .proConPara1, .fewFdt1 .proCon1 .proConPara1, .fewFdt2 .proCon1 .proConPara1, .fewBead1 .proCon1 .proConPara1, .fewBead2 .proCon1 .proConPara1, .fewBead3 .proCon1 .proConPara1 {
+        width: auto;
+    }
+    .fewChe1 .proCon1 .proConPara2, .fewChe2 .proCon1 .proConPara2, .fewChe3 .proCon1 .proConPara2, .fewAvs .proCon1 .proConPara2, .fewFdt1 .proCon1 .proConPara2, .fewFdt2 .proCon1 .proConPara2, .fewBead1 .proCon1 .proConPara2, .fewBead2 .proCon1 .proConPara2, .fewBead3 .proCon1 .proConPara2 {
+        padding-left: 19px;
+    }
+    .fewChe3 .proCon1 p {
+        font-size: 13px;
+    }
+    .fewChe3 .ewidth2 label {
+        width: 145px;
+    }
+    .ewidth3 label {
+        width: 120px;
+    }
+    .fewChe3 .ewidth4 label {
+        width: 144px;
+    }
+    .fewGasket .sideBan p {
+        padding-top: 137px;
+    }
+    .fewChe1 .proCon1, .fewChe2 .proCon1, .fewChe3 .proCon1, .fewAvs .proCon1, .fewFdt1 .proCon1, .fewFdt2 .proCon1, .fewBead1 .proCon1, .fewBead2 .proCon1, .fewBead3 .proCon1, .fewCoated .proCon1, .fewPig .proCon1 {
+        padding-top: 20px;
+    }
+     .sideBar, .sideBan {
+            height: 301px;
+    }
+    .fewCatDet iframe, .fewPrDet iframe, .fewMsdsDet iframe {
+        width: 335px;
+        height: 350px;
+    }
+    .bSize .bor1 .flx div:last-child {
+        width: 259px;
+    }
+    .bSize .contact [type=text] {
+        width: 61px;
+    }
+    .fewInq .send [type=submit], .fewRec2 .send [type=submit] {
+        padding: 25px 60px;
+    }
+    .fewInq .vecGreet h1 {
+        font-size: 25px;
+    }
+    .fewCatDet iframe, .fewPrDet iframe, .fewMsdsDet iframe {
+        width: 335px;
+        height: 216px;
+    }
+    .test1 .maz h4 {
+        font-size: 13px;
+    }
+    .fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p {
+    padding-top: 164px;
+    }
+    .introBg .flx img {
+    transform: translate(11%,-84%);
+    }
+
+}
+@media (min-width: 414px) and (max-width: 424px) {
+    .sideBar, .sideBan {
+        height: 313px;
+    }
+    .fewCatDet iframe, .fewPrDet iframe, .fewMsdsDet iframe {
+        width: 349px;
+        height: 216px;
+    }
+    .gasketImg .Lflx div {
+        margin-bottom: 33px;
+    }
+    .fewChe1 .proCon1 .proConPara2, .fewChe2 .proCon1 .proConPara2, .fewChe3 .proCon1 .proConPara2, .fewAvs .proCon1 .proConPara2, .fewFdt1 .proCon1 .proConPara2, .fewFdt2 .proCon1 .proConPara2, .fewBead1 .proCon1 .proConPara2, .fewBead2 .proCon1 .proConPara2, .fewBead3 .proCon1 .proConPara2 {
+        padding-left: 19px;
+    }
+    .fewAvs .sideBan p {
+        padding-top: 114px;
+    }
+    .fewGasses .sideBan p, .fewGasses1 .sideBan p, .fewGasses2 .sideBan p, .fewGasses3 .sideBan p, .fewGasses4 .sideBan p, .fewFdt1 .sideBan p, .fewFdt2 .sideBan p {
+        padding-top: 130px;
+    }
+    .fewChe1 .sideBan p, .fewChe2 .sideBan p, .fewChe3 .sideBan p {
+        padding-top: 113px;
+    }
+    .fewGasket .sideBan p {
+        padding-top: 114px;
+    }
+    .fewBead1 .sideBan p, .fewBead2 .sideBan p, .fewBead3 .sideBan p, .fewPig .sideBan p, .fewCoated .sideBan p {
+        padding-top: 145px;
+    }
+    .bSize .bor1 .flx div:last-child {
+        width: 270px;
+    }
+    .bSize .contact [type=text] {
+        width: 64px;
+    }
+    .fewRec2 .private p, .private table td {
+        font-size: 12px;
+    }
+    .fewRec2 .para3 h1 {
+        font-size: 20px !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 0;
+    }
+    .introBg .flx img {
+    transform: translate(11%,-77%);
+    }
+}

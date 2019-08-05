@@ -1,0 +1,35 @@
+<?php session_start();?>
+<!doctype html>
+<head>
+    <?php include("common/allCssJs.php"); ?>
+</head>
+<body class="preloader3 dark_sup_menu light_header">
+    <div id="main_wrapper">
+        <?php include("common/header.php"); ?>
+        <div class="wrapper">
+        	<div id="container1" class="wView">
+        	    <ul id="scene">
+                    <li class="layer" data-depth="0.2"><img class="hlayer" src="images/mainbg2.png"></li>
+                    <li class="layer" data-depth="0.6"><img class="blayer" src="images/ballon.png"></li>
+        	    </ul>
+        	</div>
+            <div class="mView">
+                <img src="images/mmainBg.png">
+            </div>
+        </div>
+        <script>
+            var scene = document.getElementById('scene');
+            var parallaxInstance = new Parallax(scene);
+        </script>
+        <script>
+$(document).ready(function(){
+  $(".gnb_open").click(function(){
+    $(".gnb_open").hide();
+  });
+  $(".gnb_wrap_close").click(function(){
+    $(".gnb_open").show();
+  });
+});
+</script>
+</body>
+</html>

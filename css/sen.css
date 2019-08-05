@@ -1,0 +1,83 @@
+.offset-cus-1{
+  margin-left: 10.2%
+}
+.offset-contcus-1{
+  margin-left: 4%
+}
+.offset-contcusprocon-1 {
+    margin-left: 4%;
+}
+.content-top{
+  margin-top: 100px
+}
+.title h1 {
+    font-family: "NotoSansCJKkr-Medium";
+    font-size: 2.2rem;
+    padding-left: 15px;
+    color: #363636;
+}
+@media all and (max-width: 1200px) and (min-width: 950px)
+{
+  .offset-cus-1{
+    margin-left:0% ;
+  }
+  .offset-contcus-1{
+    margin-left:6%;
+  }
+  .flxOnly {
+    display: inline;
+  }
+  .fewBead1 .sideBan, .fewBead2 .sideBan, .fewBead3 .sideBan, .fewCoated .sideBan, .fewPig .sideBan {
+    background-size: contain !important;
+    width: 100%;
+    background-color: #616e7e !important;
+    background-repeat: no-repeat !important;
+  }
+}
+@media all and (max-width: 950px) and (min-width: 480px)
+{
+  .offset-cus-1{
+    margin-left:0% ;
+  }
+  .offset-contcus-1{
+    margin-left:17%;
+  }
+  .proConPara2 {
+    margin-top: 40px;
+  }
+  .title h1 {
+      font-size: 1.6rem;
+  }
+  .flxOnly {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  .fewBead1 .sideBan, .fewBead2 .sideBan, .fewBead3 .sideBan, .fewCoated .sideBan, .fewPig .sideBan {
+    background-size: contain !important;
+    width: 100%;
+    background-color: #616e7e !important;
+    background-repeat: no-repeat !important;
+  }
+}
+@media only screen and (max-width: 480px)
+  {
+    .offset-cus-1 {
+      margin-left: 0;
+      padding: 0px;
+  }
+  .container-fluid{
+    padding: 0px;
+    margin: 0px;
+  }
+  .offset-contcus-1 {
+    margin-left: 0px;
+
+}
+.title h1 {
+    font-size: 1.2rem;
+}
+.offset-contcusprocon-1 {
+    margin-left: 6%;
+    margin-top: 20px;
+  }
+}

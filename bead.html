@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+
+
+<head>
+    <title>FEWM</title>
+    <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <meta name="naver-site-verification" content="62cf513d4dcb8380012fc58d9204f656661f0dd5"/>
+    <meta name="google-site-verification" content=""/>
+    <meta name="Copyright" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <link rel="stylesheet" href="css/bootstrap4.css" type="text/css" media="all" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" href="images/favicon.png" type="images/png">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/sen.css" type="text/css" media="all" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all" /> -->
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/fewm.css" media="screen"/>
+    <script type="text/javascript" src="js/parallax.js"></script>
+    <script src="js/jssor.slider.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/common.css"/>
+    <script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="./js/common.js"></script>
+  </head>
+  <script type="text/javascript">
+        jssor_1_slider_init = function() {
+            var jssor_1_SlideshowTransitions = [
+                {$Duration:1200,$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+                $AutoPlay: 1,
+                $SlideshowOptions: {
+                    $Class: $JssorSlideshowRunner$,
+                    $Transitions: jssor_1_SlideshowTransitions,
+                    $TransitionsOrder: 1
+                },
+                $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$
+                },
+                $BulletNavigatorOptions: {
+                    $Class: $JssorBulletNavigator$
+                }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+<body class="">
+  <div class="container-fluid">
+    <div id="wrap">
+        <div>
+            <div class="main_top clfx">
+              <div class="wView">
+           <div class="mview menu_open" id="ham"><a href="#"><img src="./images/btn_menu.png" alt="open" /></a></div>
+           </div>
+                <div class="gnb_open"><a href="#"><img src="./images/btn_menu.png" alt="close" class="wView" /><img src="./images/Mmenu.png" alt="close" class="mView" /></a></div>
+            </div>
+            <div class="gnb_bg" style="<?php echo $headerBg; ?>">
+                <div class="gnb_wrap">
+                    <div class="flag">
+                        <a href="../index.php"><img src="./images/flag1.png"></a>
+                        <a href="index.php"><img src="./images/flag2.png"></a>
+                    </div>
+                    <div class="MmenuHeight">
+                    <a href="index.php"><img src="./images/logo.png" alt="logo"></a>
+                    <ul class="gnb">
+                        <li>
+                            <a href="#" onClick="return false;">About the Company</a>
+                            <ul class="s_gnb">
+                                <li><a href="greet.php">Message from CEO</a></li>
+                                <li><a href="history.php">History</a></li>
+                                <!-- <li><a href="organization.php">Organizational chart</a></li> -->
+                                <li><a href="location.php">Location</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" onClick="return false;">Product</a>
+                            <ul class="s_gnb">
+                                <li><a href="gases.php">Gases</a></li>
+                                <li><a href="chemicalSub1.php">Chemical</a></li>
+                                <li><a href="gasket.php">Gasket</a></li>
+                                <li><a href="bead.php">BEAD</a></li>
+                                <li><a href="fdt_novec1.php">FDT</a></li>
+                                <li><a href="avs.php">Shutter Valve</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" onClick="return false;">Employment</a>
+                            <ul class="s_gnb">
+                                <li><a href="recruit1.php?page=1">Employment</a></li>
+                                <li><a href="recruit2.php">Apply</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" onClick="return false;">Customer Support</a>
+                            <ul class="s_gnb">
+                                <li><a href="noticeList.php?page=1&currentFun=all">Notice</a></li>
+                                <li><a href="catalogue.php?page=1&currentFun=all">Catalogue</a></li>
+                                <li><a href="msds.php?page=1&currentFun=all">MSDS</a></li>
+                                <li><a href="prRoom.php?page=1&currentFun=all">Promotion Center</a></li>
+                                <li><a href="inquiry.php">Inquiry</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-2 offset-cus-1 offset-md-1">
+      <aside class="fewBead1 ">
+        <div class="con1">
+                    <section class="sideBar">
+                        <div class="sideBan">
+                            <h1>BEAD</h1>
+                            <p>Diffusion and reflective<br>
+                                bead for optical films</p>
+                            </div>
+                            <div>
+                                <ul class="wView">
+                                    <a href="bead.php" class="active"><li>RF Series</li></a>
+                                    <a href="bead2.php"><li>FEsphere P Series</li></a>
+                                    <a href="bead3.php"><li>FEsphere SS, SD Series</li></a>
+                                    <a href="pigment.php"><li>Pigment Powder</li></a>
+                                    <a href="coated.php"><li>Coated Powders</li></a>
+                                </ul>
+                                <div class="vecsafety mView">
+                                 <div class="sbutton1"><a href="javascript:;">RF Series<img src="images/b_plus.png" alt=""> </a>
+                                    <button class="dropdown-toggle" aria-expanded="false"><span class="screen-reader-text">expand child menu</span></button>
+                                    <ul class="vsub-menu1" style="display: none;">
+                                        <li class="vsub active"><a href="">RF Series</a></li>
+                                        <li><a href="bead2.php">FEsphere P Series</a></li>
+                                        <li><a href="bead3.php">FEsphere SS, SD Series</a></li>
+                                        <li><a href="pigment.php">Pigment Powder</a></li>
+                                        <li><a href="coated.php">Coated Powders</a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            </div>
+                        </section>
+                    </div>
+        </aside>
+    </div>
+    <div class="col offset-contcus-1 offset-md-1">
+      <div class="content-top">
+          <div class="title">
+                            <div>
+                                <img src="images/red_icon.png" alt="">
+                                <h1>Reflection Bead - RF-10, RF-40</h1>
+                            </div>
+                        </div>
+                        <div class="proCon1 padBot50">
+                            <div class="flxOnly">
+                                <div class="proConPara1">
+                                    <div class="fdt2Sli">
+                                        <!-- slider -->
+                                        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;visibility: hidden;" class="sliWid">
+                                            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;overflow:hidden;" class="sliWid">
+                                                <div>
+                                                    <img data-u="image" src="images/bead-rf-2.jpg" />
+                                                </div>
+                                                <div>
+                                                    <img data-u="image" src="images/bead-rf-1.jpg" />
+                                                </div>
+                                            </div>
+                                            <!-- Bullet Navigator -->
+                                            <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:-15px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                                                <div data-u="prototype" class="i" style="width:10px;height:10px;">
+                                                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- slider -->
+                                    </div>
+                                </div>
+                                <div class="proConPara2 offset-contcusprocon-1">
+                                    <div>
+                                        <h5>Description</h5>
+                                        <p>Chemical Name : Polyethylene Terephthalate(PET)<br>
+                                            CAS No. : 25038-59-9<br>
+                                            Form : Granula Powder</p>
+                                    </div>
+                                    <div>
+                                        <h5>Applications</h5>
+                                        <p>Film Coating Agent, Industrial resin</p>
+                                    </div>
+                                    <div>
+                                        <h5>Effect</h5>
+                                        <p>Prevent Scratch of reflection sheet</p>
+                                    </div>
+                                    <div class="bStrat">
+                                        <h5>Business Strategy</h5>
+                                        <table class="table">
+                                            <tr>
+                                                <td>RF - 05, RF - 10</td>
+                                                <td>Small Screen Panel
+                                                    -  Tablet PC, Phone, Notebook, Navigation</td>
+                                            </tr>
+                                            <tr>
+                                                <td>RF - 40, RF - 50</td>
+                                                <td>Large Screen Panel
+                                                    - LCD, LED TV panel</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="selGuide">
+                                <div class="vecsub">
+                                    <div>
+                                        <h5>Selection Guide</h5>
+                                        <div class="selGuideImg"><img src="images/bead-rf3txt.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="proBtn">
+                                <div><a href="inquiry.php">제품 상담문의 <img src="images/b_arrow.png" alt=""></a></div>
+                            </div>
+                        </div>
+                      </div>
+    </div>
+  <div>
+
+    <script>
+        $(function() {
+            $('li').click(function(){
+                $(this).css('background', '#fff');
+            });
+        });
+        $(document).ready(function(){
+            $('.vsub-menu1').hide();
+            if ($(window).width() < 641) {
+                $(".sbutton1").click(function(){
+                    $(".vsub-menu1").slideToggle();
+                });
+                return true;
+                 }
+        });
+    </script>
+            <script type="text/javascript">jssor_1_slider_init();</script>
+</body>
+</html>
+
+<!-- .sideBar {
+    max-width: 100%;
+    background-color: #eeeeee;
+    height: 1340px;
+    position: unset;
+} -->

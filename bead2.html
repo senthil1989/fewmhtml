@@ -1,0 +1,184 @@
+<!doctype html>
+<head>
+    <?php include("common/allCssJs.php"); ?>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+</head>
+<body class="preloader3 dark_sup_menu light_header">
+    <div id="main_wrapper" class="fewBead2">
+        <?php include("common/header.php"); ?>
+        <div class="wrapper">
+            <main class="page-content bead2">
+                <div class="full-width">
+                    <div class="con1">
+                        <section class="sideBar">
+                            <div class="sideBan">
+                                <h1>BEAD</h1> 
+                                <p>Diffusion and reflective<br>
+                                    bead for optical films</p>
+                            </div>
+                            <div>
+                                <ul class="wView">
+                                    <a href="bead.php"><li>RF Series</li></a>
+                                    <a href="bead2.php" class="active"><li>FEsphere P Series</li></a>
+                                    <a href="bead3.php"><li>FEsphere SS, SD Series</li></a>
+                                    <a href="pigment.php"><li>Pigment Powder</li></a>
+                                    <a href="coated.php"><li>Coated Powders</li></a>
+                                </ul>
+                                <div class="vecsafety mView">
+                                     <div class="sbutton1"><a href="javascript:;">FEsphere P Series<img src="images/b_plus.png" alt=""> </a>
+                                        <button class="dropdown-toggle" aria-expanded="false"><span class="screen-reader-text">expand child menu</span></button>
+                                        <ul class="vsub-menu1" style="display: none;">
+                                            <li class="vsub"><a href="bead.php">RF Series</a></li>  
+                                            <li class="active"><a href="">FEsphere P Series</a></li>
+                                            <li><a href="bead3.php">FEsphere SS, SD Series</a></li>
+                                            <li><a href="pigment.php">Pigment Powder</a></li>
+                                            <li><a href="coated.php">Coated Powders</a></li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="con2">
+                        <div class="title">
+                            <div>
+                                <img src="images/red_icon.png" alt="">
+                                <h1>Light Diffusion Bead - P, PO, PP</h1>
+                            </div>
+                        </div>
+                        <div class="proCon1 padBot50">
+                            <div class="flxOnly">
+                                <div class="proConPara1">
+                                    <div class="fdt2Sli">
+                                        <!-- slider -->
+                                        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;visibility: hidden;" class="sliWid">
+                                            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;overflow:hidden;" class="sliWid">
+                                                <div>
+                                                    <img data-u="image" src="images/bead-ps-s1.jpg" />
+                                                </div>
+                                                <div>
+                                                    <img data-u="image" src="images/bead-ps-s2.jpg" />
+                                                </div>
+                                                <div>
+                                                    <img data-u="image" src="images/bead-ps-s3.jpg" />
+                                                </div>
+                                            </div>
+                                            <!-- Bullet Navigator -->
+                                            <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:-15px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                                                <div data-u="prototype" class="i" style="width:10px;height:10px;">
+                                                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- slider -->
+                                    </div>
+                                </div>
+                                <div class="proConPara2">
+                                    <div>
+                                        <h5>Description</h5>
+                                        <p>Chemical Name : Methylmethacrylate crosspolymer<br>
+                                            CAS No. : 25777-71-3<br>
+                                            Form : Spherical Powder</p>
+                                    </div>
+                                    <div>
+                                        <h5>Effect</h5>
+                                        <p>High optical performance<br>
+                                            Ball bearing effect<br>
+                                            Soft focus effect</p>
+                                    </div>
+                                    <div>
+                                        <h5>Applications</h5>
+                                        <p>Light Diffusion Film Coating Agent</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="selGuide">
+                                <div class="vecsub">
+                                    <div>
+                                        <h5>Selection Guide</h5>
+                                        <div class="selGuideImg"><img src="images/bead-ps3.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="proBtn">
+                                <div><a href="inquiry.php">Product inquiry<img src="images/b_arrow.png" alt=""></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+            <script src="js/core.min.js"></script>
+            <script src="js/script.js"></script>
+            <script>                
+                $(function() {  
+                    $('li').click(function(){
+                        $(this).css('background', '#fff');
+                      });
+                    });
+                $(document).ready(function(){
+                    $('.vsub-menu1').hide();
+                    if ($(window).width() < 641) {
+                        $(".sbutton1").click(function(){
+                            $(".vsub-menu1").slideToggle();
+                        });  
+                        return true;
+                         }
+                });
+            </script>
+            <script type="text/javascript">jssor_1_slider_init();</script>
+        </body>
+    </html>
