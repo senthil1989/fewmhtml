@@ -20,9 +20,9 @@ if($basename=="index1.php") {
   <body>
     <div id="wrap">
         <div>
-            
 
-            <div class="main_top clfx">  
+
+            <div class="main_top clfx">
               <div class="wView">
            <div class="mview menu_open" id="ham"><a href="#"><img src="./images/btn_menu.png" alt="open" /></a></div>
            </div>
@@ -43,7 +43,7 @@ if($basename=="index1.php") {
                                 <li><a href="greet.php">Message from CEO</a></li>
                                 <li><a href="history.php">History</a></li>
                                 <!-- <li><a href="organization.php">Organizational chart</a></li> -->
-                                <li><a href="location.php">Location</a></li>  
+                                <li><a href="location.php">Location</a></li>
                             </ul>
                         </li>
                         <li>
@@ -76,7 +76,7 @@ if($basename=="index1.php") {
                         </li>
                     </ul>
                 </div>
-                   <!--  <div class="sns">  
+                   <!--  <div class="sns">
                         <a href="#" onClick="return false;">개인정보처리방침</a><span>|</span>
                         <a href="#" onClick="return false;">회사소개</a><span>|</span>
                         <a href="#" onClick="return false;">문의하기</a>
